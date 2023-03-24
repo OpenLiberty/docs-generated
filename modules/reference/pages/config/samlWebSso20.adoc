@@ -109,14 +109,6 @@
 
 |+Specifies the customized URI reference corresponding to a name identifier format that is not defined in the SAML core specification.+
 
-|+disableInitialRequestCookie+
-
-|boolean
-
-|+false+
-
-|+When too many authentication requests are created by Service Provider and redirected to IdP due to the application SSO setup, set this attribute to true to prevent creation of the initial request cookie. The default is false.+
-
 |+disableLtpaCookie+
 
 |boolean
@@ -320,7 +312,7 @@
 
 |+0m+
 
-|+The time period to authenticate the user again when the Subject associated with a SAML Assertion is about to expire. This cushion is applied to both the NotOnOrAfter value in the Conditions element and the SessionNotOnOrAfter attribute of the SAML Assertion. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+|+The time period to authenticate again when a SAML Assertion is about to expire, which is indicated by either the statement NotOnOrAfter or the attribute SessionNotOnOrAfter of the SAML Assertion. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
 
 |+reAuthnOnAssertionExpire+
 
@@ -328,7 +320,7 @@
 
 |+false+
 
-|+Authenticate the incoming HTTP request again when the NotOnOrAfter value in the Conditions element of the SAML Assertion is expired.+
+|+Authenticate the incoming HTTP request again when a SAML Assertion is about to expire.+
 
 |+realmIdentifier+
 
@@ -370,14 +362,6 @@
 +%signatureMethodAlgorithm.SHA128+ +
 *+SHA256+* +
 +SHA-256 signature algorithm+
-
-|+spCookieName+
-
-|string
-
-|
-
-|+Specifies a cookie name for the SAML service provider. The service provider will provide one by default.+
 
 |+spHostAndPort+
 

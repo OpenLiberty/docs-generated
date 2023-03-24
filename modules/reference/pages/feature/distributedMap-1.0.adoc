@@ -35,11 +35,11 @@ include::./distributedMap-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.cache[]
-* javadoc:com.ibm.websphere.cache.exception[]
-* javadoc:com.ibm.websphere.exception[]
-* javadoc:com.ibm.ws.cache.spi[]
-* javadoc:com.ibm.wsspi.cache[]
+* xref:api/distributedMap-1.0.com.ibm.websphere.cache_1.adoc[com.ibm.websphere.cache]
+* xref:api/distributedMap-1.0.com.ibm.websphere.cache.exception_2.adoc[com.ibm.websphere.cache.exception]
+* xref:api/distributedMap-1.0.com.ibm.websphere.exception_3.adoc[com.ibm.websphere.exception]
+* xref:api/distributedMap-1.0.com.ibm.ws.cache.spi_4.adoc[com.ibm.ws.cache.spi]
+* xref:api/distributedMap-1.0.com.ibm.wsspi.cache_5.adoc[com.ibm.wsspi.cache]
 // end::apis[]
 // tag::requirements[]
 
@@ -53,7 +53,7 @@ include::./distributedMap-1.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 

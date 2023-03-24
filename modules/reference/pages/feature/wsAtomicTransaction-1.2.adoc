@@ -33,9 +33,6 @@ include::./wsAtomicTransaction-1.2/examples.adoc[opts=optional]
 * config:authentication[]
 * config:authorization-roles[]
 * config:basicRegistry[]
-* config:cache[]
-* config:cacheManager[]
-* config:cachingProvider[]
 * config:classloader[]
 * config:classloading[]
 * config:jaasLoginContextEntry[]
@@ -65,7 +62,7 @@ include::./wsAtomicTransaction-1.2/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]
@@ -81,7 +78,4 @@ com.ibm.websphere.appserver.wsAtomicTransaction-1.2; type="osgi.subsystem.featur
 ----
 // end::feature-require[]
 // tag::spi[]
-
-== SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.webservices.wsat[]
 // end::spi[]

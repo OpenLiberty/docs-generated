@@ -27,8 +27,8 @@ include::./json-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.json.java[]
-* javadoc:com.ibm.json.xml[]
+* xref:api/json-1.0.com.ibm.json.java_1.adoc[com.ibm.json.java]
+* xref:api/json-1.0.com.ibm.json.xml_2.adoc[com.ibm.json.xml]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]
@@ -39,7 +39,7 @@ include::./json-1.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 

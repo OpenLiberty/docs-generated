@@ -33,9 +33,6 @@ include::./openidConnectClient-1.0/examples.adoc[opts=optional]
 * config:authentication[]
 * config:authorization-roles[]
 * config:basicRegistry[]
-* config:cache[]
-* config:cacheManager[]
-* config:cachingProvider[]
 * config:classloader[]
 * config:classloading[]
 * config:jaasLoginContextEntry[]
@@ -52,7 +49,7 @@ include::./openidConnectClient-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.security.openidconnect[]
+* xref:api/openidConnectClient-1.0.adoc[OpenID Connect Client 1.0]
 // end::apis[]
 // tag::requirements[]
 
@@ -68,7 +65,7 @@ include::./openidConnectClient-1.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

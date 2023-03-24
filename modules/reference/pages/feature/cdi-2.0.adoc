@@ -57,7 +57,9 @@ include::./cdi-2.0/examples.adoc[opts=optional]
 == Third-party API packages provided by this feature
 * javadoc:org.jboss.weld.context[]
 * javadoc:org.jboss.weld.context.api[]
+* javadoc:org.jboss.weld.context.beanstore[]
 * javadoc:org.jboss.weld.context.bound[]
+* javadoc:org.jboss.weld.context.conversation[]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]
@@ -68,7 +70,7 @@ include::./cdi-2.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 
@@ -131,5 +133,5 @@ com.ibm.websphere.appserver.cdi-2.0; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:io.openliberty.cdi.spi[]
+* xref:spi/cdi-2.0.adoc[Contexts and Dependency Injection 2.0]
 // end::spi[]

@@ -36,7 +36,7 @@ include::./websocket-1.1/examples.adoc[opts=optional]
 * javadoc:javax.websocket.server[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.wsoc[]
+* xref:api/websocket-1.1.adoc[Java WebSocket 1.1]
 // end::apis[]
 // tag::requirements[]
 
@@ -51,7 +51,7 @@ include::./websocket-1.1/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 

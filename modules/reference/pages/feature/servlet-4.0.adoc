@@ -65,13 +65,13 @@ include::./servlet-4.0/examples.adoc[opts=optional]
 * javadoc:javax.servlet.resources[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.servlet.container[]
-* javadoc:com.ibm.websphere.servlet.context[]
-* javadoc:com.ibm.websphere.servlet.error[]
-* javadoc:com.ibm.websphere.servlet.event[]
-* javadoc:com.ibm.websphere.servlet.session[]
-* javadoc:com.ibm.websphere.webcontainer[]
-* javadoc:com.ibm.wsspi.servlet.session[]
+* xref:api/servlet-4.0.com.ibm.websphere.servlet.container_1.adoc[com.ibm.websphere.servlet.container]
+* xref:api/servlet-4.0.com.ibm.websphere.servlet.context_2.adoc[com.ibm.websphere.servlet.context]
+* xref:api/servlet-4.0.com.ibm.websphere.servlet.error_3.adoc[com.ibm.websphere.servlet.error]
+* xref:api/servlet-4.0.com.ibm.websphere.servlet.event_4.adoc[com.ibm.websphere.servlet.event]
+* xref:api/servlet-4.0.com.ibm.websphere.servlet.session_5.adoc[com.ibm.websphere.servlet.session]
+* xref:api/servlet-4.0.com.ibm.websphere.webcontainer_6.adoc[com.ibm.websphere.webcontainer]
+* xref:api/servlet-4.0.com.ibm.wsspi.servlet.session_7.adoc[com.ibm.wsspi.servlet.session]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]
@@ -82,7 +82,7 @@ include::./servlet-4.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 
@@ -149,20 +149,4 @@ com.ibm.websphere.appserver.servlet-4.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
-
-== SPI packages provided by this feature
-* javadoc:com.ibm.websphere.servlet.filter[]
-* javadoc:com.ibm.websphere.servlet.request[]
-* javadoc:com.ibm.websphere.servlet.response[]
-* javadoc:com.ibm.websphere.webcontainer.async[]
-* javadoc:com.ibm.ws.webcontainer.extension[]
-* javadoc:com.ibm.ws.webcontainer.spiadapter.collaborator[]
-* javadoc:com.ibm.wsspi.webcontainer[]
-* javadoc:com.ibm.wsspi.webcontainer.collaborator[]
-* javadoc:com.ibm.wsspi.webcontainer.extension[]
-* javadoc:com.ibm.wsspi.webcontainer.filter[]
-* javadoc:com.ibm.wsspi.webcontainer.metadata[]
-* javadoc:com.ibm.wsspi.webcontainer.osgi.extension[]
-* javadoc:com.ibm.wsspi.webcontainer.servlet[]
-* javadoc:com.ibm.wsspi.webcontainer.webapp[]
 // end::spi[]

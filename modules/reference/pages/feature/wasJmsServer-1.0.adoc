@@ -38,7 +38,7 @@ include::./wasJmsServer-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.messaging.mbean[]
+* xref:api/wasJmsServer-1.0.adoc[Message Server 1.0]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]
@@ -49,7 +49,7 @@ include::./wasJmsServer-1.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 

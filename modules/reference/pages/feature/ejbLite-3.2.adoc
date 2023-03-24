@@ -43,8 +43,8 @@ include::./ejbLite-3.2/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.ejbcontainer[]
-* javadoc:com.ibm.websphere.ejbcontainer.mbean[]
+* xref:api/ejbLite-3.2.com.ibm.websphere.ejbcontainer_1.adoc[com.ibm.websphere.ejbcontainer]
+* xref:api/ejbLite-3.2.com.ibm.websphere.ejbcontainer.mbean_2.adoc[com.ibm.websphere.ejbcontainer.mbean]
 // end::apis[]
 // tag::requirements[]
 
@@ -58,7 +58,7 @@ include::./ejbLite-3.2/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 

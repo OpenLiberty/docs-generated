@@ -35,7 +35,7 @@ include::./appAuthorization-2.0/examples.adoc[opts=optional]
 * javadoc:jakarta.security.jacc[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.wsspi.security.authorization.jacc[]
+* xref:api/appAuthorization-2.0.adoc[Jakarta Authorization 2.0]
 // end::apis[]
 // tag::requirements[]
 
@@ -49,7 +49,7 @@ include::./appAuthorization-2.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 

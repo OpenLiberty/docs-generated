@@ -65,7 +65,7 @@ include::./cdi-1.2/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 
@@ -109,5 +109,5 @@ com.ibm.websphere.appserver.cdi-1.2; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:io.openliberty.cdi.spi[]
+* xref:spi/cdi-1.2.adoc[Contexts and Dependency Injection 1.2]
 // end::spi[]

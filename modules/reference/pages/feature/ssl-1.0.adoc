@@ -42,7 +42,7 @@ include::./ssl-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.ssl[]
+* xref:api/ssl-1.0.adoc[Secure Socket Layer 1.0]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]
@@ -53,7 +53,7 @@ include::./ssl-1.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 
@@ -101,7 +101,4 @@ com.ibm.websphere.appserver.ssl-1.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
-
-== SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.ssl[]
 // end::spi[]

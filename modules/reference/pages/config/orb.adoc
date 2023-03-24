@@ -529,7 +529,7 @@ Max: +100000+
 
 |
 
-|+Specify a pipe (\|)-separated list of server identities, which are trusted to perform identity assertion to this server. A value of â€œ*â€ is also accepted to indicate implicit trust (trust anyone).+
+|+Specify a pipe (\|)-separated list of server identities, which are trusted to perform identity assertion to this server. A value of “*” is also accepted to indicate implicit trust (trust anyone).+
 |===
 [#+serverPolicy.csiv2/layers/authenticationLayer+]*serverPolicy.csiv2 > layers > authenticationLayer*
 

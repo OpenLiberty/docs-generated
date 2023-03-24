@@ -48,7 +48,7 @@ include::./federatedRegistry-1.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 
@@ -69,7 +69,7 @@ com.ibm.websphere.appserver.federatedRegistry-1.0; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.security.wim[]
-* javadoc:com.ibm.wsspi.security.wim.exception[]
-* javadoc:com.ibm.wsspi.security.wim.model[]
+* xref:spi/federatedRegistry-1.0.com.ibm.wsspi.security.wim_1.adoc[com.ibm.wsspi.security.wim]
+* xref:spi/federatedRegistry-1.0.com.ibm.wsspi.security.wim.exception_2.adoc[com.ibm.wsspi.security.wim.exception]
+* xref:spi/federatedRegistry-1.0.com.ibm.wsspi.security.wim.model_3.adoc[com.ibm.wsspi.security.wim.model]
 // end::spi[]
