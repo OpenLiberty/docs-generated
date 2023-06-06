@@ -27,9 +27,9 @@ include::./webCache-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* xref:api/webCache-1.0.com.ibm.websphere.command_1.adoc[com.ibm.websphere.command]
-* xref:api/webCache-1.0.com.ibm.websphere.command.web_2.adoc[com.ibm.websphere.command.web]
-* xref:api/webCache-1.0.com.ibm.websphere.servlet.cache_3.adoc[com.ibm.websphere.servlet.cache]
+* xref:api/webCache-1.0.com.ibm.websphere.command.adoc[com.ibm.websphere.command]
+* xref:api/webCache-1.0.com.ibm.websphere.command.web.adoc[com.ibm.websphere.command.web]
+* xref:api/webCache-1.0.com.ibm.websphere.servlet.cache.adoc[com.ibm.websphere.servlet.cache]
 // end::apis[]
 // tag::requirements[]
 

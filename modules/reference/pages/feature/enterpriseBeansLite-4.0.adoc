@@ -43,8 +43,8 @@ include::./enterpriseBeansLite-4.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* xref:api/enterpriseBeansLite-4.0.com.ibm.websphere.ejbcontainer_1.adoc[com.ibm.websphere.ejbcontainer]
-* xref:api/enterpriseBeansLite-4.0.com.ibm.websphere.ejbcontainer.mbean_2.adoc[com.ibm.websphere.ejbcontainer.mbean]
+* xref:api/enterpriseBeansLite-4.0.com.ibm.websphere.ejbcontainer.adoc[com.ibm.websphere.ejbcontainer]
+* xref:api/enterpriseBeansLite-4.0.com.ibm.websphere.ejbcontainer.mbean.adoc[com.ibm.websphere.ejbcontainer.mbean]
 // end::apis[]
 // tag::requirements[]
 

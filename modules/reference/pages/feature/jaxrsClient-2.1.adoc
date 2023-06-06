@@ -43,8 +43,8 @@ include::./jaxrsClient-2.1/examples.adoc[opts=optional]
 * javadoc:javax.ws.rs.sse[]
 
 == Liberty API packages provided by this feature
-* xref:api/jaxrsClient-2.1.com.ibm.websphere.jaxrs.providers.json4j_1.adoc[com.ibm.websphere.jaxrs.providers.json4j]
-* xref:api/jaxrsClient-2.1.com.ibm.websphere.jaxrs20.multipart_2.adoc[com.ibm.websphere.jaxrs20.multipart]
+* xref:api/jaxrsClient-2.1.com.ibm.websphere.jaxrs.providers.json4j.adoc[com.ibm.websphere.jaxrs.providers.json4j]
+* xref:api/jaxrsClient-2.1.com.ibm.websphere.jaxrs20.multipart.adoc[com.ibm.websphere.jaxrs20.multipart]
 // end::apis[]
 // tag::requirements[]
 
