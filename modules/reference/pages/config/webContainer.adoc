@@ -305,6 +305,14 @@
 
 |+Log servlet container class loading errors as warnings rather than logging them only when debug is enabled. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.logservletcontainerinitializerclassloadingerrors.+
 
+|+maxFileCount+
+
+|int
+
+|+5000+
+
+|+The maximum number of files that can be uploaded by a multipart/form-data request. The default value is 5000. For unlimited file upload, set the value to -1.+
+
 |+metaInfResourcesCacheSize+
 
 |int
@@ -368,6 +376,14 @@
 |+true+
 
 |+When this property is false, the webcontainer will not set the response's content type header during the error handling process. An application is responsible to set the response's content type. The default value (true) sets the content type to "text/html".+
+
+|+skipEncodedCharVerification+
+
+|boolean
+
+|+false+
+
+|+A request is rejected if the request URI contains the %23, %2E, %2F, or %5C encoded characters. When this property is set to true, the request URI is not checked for these encoded characters. This property is available starting in servlet 6.0, and default value is false.+
 
 |+skipMetaInfResourcesProcessing+
 

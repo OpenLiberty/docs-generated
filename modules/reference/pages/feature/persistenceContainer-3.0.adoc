@@ -27,10 +27,8 @@ include::./persistenceContainer-3.0/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
-* config:classloader[]
 * config:classloading[]
 * config:jpa[]
-* config:library[]
 * config:transaction[]
 // end::config[]
 // tag::apis[]
@@ -56,7 +54,7 @@ include::./persistenceContainer-3.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-18.0
+* JavaSE-20.0
 // end::java-versions[]
 // tag::dependencies[]
 

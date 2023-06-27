@@ -49,14 +49,6 @@
 
 |+Identifies the maximum amount of time that the application server should maintain a connection with the web server. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
-|+extendedHandshake+
-
-|boolean
-
-|+false+
-
-|+If true, the web server plugin uses an extended handshake to determine if the application server is running.+
-
 |+httpEndpointRef+
 
 |A reference to top level httpEndpoint element (string).
@@ -555,6 +547,16 @@ This is specified as a child element rather than as an XML attribute (maximum oc
 
 |+Specifies whether the HTTP channel creates an I/O exception when an inbound connection is closed while still in use by the servlet. The default value is set according to the configured servlet feature. Prior to Servlet 4.0, the default value is false; starting with Servlet 4.0, the default value is true.+
 
+|+connectionWindowSize+
+
+|int +
+Min: +65535+ +
+Max: +2147483647+
+
+|+65535+
+
+|+Specifies the window size in octets for HTTP/2 connection-level flow control. This value can be configured to any size within the range of 65,535 to 2,147,483,647 octets, inclusive. If no value is specified, the default value is 65,535 octets.+
+
 |+decompressionRatioLimit+
 
 |int +
@@ -619,6 +621,14 @@ Max: +500+
 
 |+Limits the number of HTTP headers that can exist in an incoming message. When this limit is exceeded, an error is returned to the remote client.+
 
+|+limitWindowUpdateFrames+
+
+|boolean
+
+|+false+
+
+|+Specifies whether the server waits until half of the HTTP/2 connection-level and stream-level windows are exhausted before it sends WINDOW_UPDATE frames. Valid values are true or false. If no value is specified, the default value is false.+
+
 |+maxConcurrentStreams+
 
 |int
@@ -635,7 +645,7 @@ Max: +16777215+
 
 |+57344+
 
-|+Specifies the maximum allowed size of a frame payload the server will advertise in the SETTINGS_MAS_FRAME_SIZE HTTP/2 settings frame. This can be configured to any size within the range of 16,384 to 16,777,215 bytes, inclusive. If not specified, the default is set to 57,344 bytes.+
+|+Specifies the maximum allowed size of a frame payload the server will advertise in the SETTINGS_MAX_FRAME_SIZE HTTP/2 settings frame. This can be configured to any size within the range of 16,384 to 16,777,215 bytes, inclusive. If not specified, the default is set to 57,344 bytes.+
 
 |+maxKeepAliveRequests+
 
@@ -669,6 +679,16 @@ Min: +-1+
 |+false+
 
 |+Removes server implementation information from HTTP headers.+
+
+|+settingsInitialWindowSize+
+
+|int +
+Min: +1+ +
+Max: +2147483647+
+
+|+65535+
+
+|+Specifies the initial window size in octets for HTTP/2 stream-level flow control. This value can be configured to any size within the range of 1 to 2,147,483,647 octets, inclusive. If no value is specified, the default value is 65,535 octets.+
 
 |+writeTimeout+
 
