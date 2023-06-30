@@ -15,7 +15,7 @@
 
 |
 
-|+Default Javaâ„¢ Transaction API (JTA) data source JNDI name to be used by applications running in this server. By default, data sources are JTA. Only data sources that are transactional are allowed in this field.+
+|+Default Java™ Transaction API (JTA) data source JNDI name to be used by applications running in this server. By default, data sources are JTA. Only data sources that are transactional are allowed in this field.+
 
 |+defaultNonJtaDataSourceJndiName+
 
