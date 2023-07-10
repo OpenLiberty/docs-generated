@@ -72,7 +72,4 @@ io.openliberty.pages-3.1; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
-
-== SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.jsp.taglib.config[]
 // end::spi[]
