@@ -27,9 +27,9 @@ include::./webCache-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.command[]
-* javadoc:com.ibm.websphere.command.web[]
-* javadoc:com.ibm.websphere.servlet.cache[]
+* xref:javadoc/api/webCache-1.0.com.ibm.websphere.command.adoc[com.ibm.websphere.command]
+* xref:javadoc/api/webCache-1.0.com.ibm.websphere.command.web.adoc[com.ibm.websphere.command.web]
+* xref:javadoc/api/webCache-1.0.com.ibm.websphere.servlet.cache.adoc[com.ibm.websphere.servlet.cache]
 // end::apis[]
 // tag::requirements[]
 
@@ -59,7 +59,4 @@ com.ibm.websphere.appserver.webCache-1.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
-
-== SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.cache.web[]
 // end::spi[]

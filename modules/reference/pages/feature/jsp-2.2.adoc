@@ -67,7 +67,4 @@ com.ibm.websphere.appserver.jsp-2.2; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
-
-== SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.jsp.taglib.config[]
 // end::spi[]
