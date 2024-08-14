@@ -1,7 +1,7 @@
 = +Feature Manager+ (+featureManager+)
-:linkcss: 
+:linkcss:
 :page-layout: config
-:nofooter: 
+:nofooter:
 
 +Defines how the server loads features.+
 
@@ -17,6 +17,7 @@ This is specified as a child element rather than as an XML attribute.
 |
 
 |+Specifies a feature to be used when the server runs.+
+
 
 |+onError+
 
@@ -34,4 +35,14 @@ This is specified as a child element rather than as an XML attribute.
 +Server will not issue any warning and error messages when it incurs a configuration error.+ +
 *+WARN+* +
 +Server will issue warning and error messages when it incurs a configuration error.+
+
+|+platform+
+
+|string +
+This is specified as a child element rather than as an XML attribute.
+
+|
+
+|+The platform specifies a programming model version, for example jakartaee-10. The platform version determines the version of any enabled versionless features that are included in the specified platform.+
+
 |===
