@@ -17,6 +17,46 @@
 
 |+Specifies the URL path for obtaining OpenAPI documents. The URL path must be constructed with Unicode alphanumeric characters A-Za-z0-9, underscore (_), dash (-), forward slash (/), or period (.).+
 
+|+excludeApplication+
+
+|string
+
+|
+
+|+Application names, one per element, that are to be excluded from the OpenAPI document.+
+
+|+excludeModule+
+
+|string
+
+|
+
+|+Module names, one per element, that are to be excluded from the OpenAPI document.+
+
+|+includeApplication+
+
+|string
+
+|
+
+|+Application names, one per element, that are to be included in the OpenAPI document. The name of an application can be defined in the server.xml, otherwise it defaults to the application archive filename excluding any extension.  The "all" special value includes all available applications.+
+
+|+includeModule+
+
+|string
+
+|
+
+|+Module names, one per element, that are to be included in the OpenAPI document. Module names must be provided in the format {ApplicationName}/{ModuleName}. The name of a module can be defined in its deployment descriptor, otherwise it defaults to the module archive filename excluding any extension. It is also logged in the SRVE0169I message.+
+
+|+openAPIVersion+
+
+|string
+
+|
+
+|+The version of the OpenAPI specification that should be used for the OpenAPI document. mpOpenAPI-4.0 defaults to "3.1" and also supports "3.0". Earlier versions only support "3.0".+
+
 |+uiPath+
 
 |string
@@ -24,4 +64,101 @@
 |
 
 |+Specifies the URL path for accessing the MicroProfile OpenAPI UI. The URL path must be constructed with Unicode alphanumeric characters A-Za-z0-9, underscore (_), dash (-), forward slash (/), or period (.) If no value is specified, the path is set to $docPath/ui.+
+|===
+[#+info+]*info*
+
++Sets the info section of the OpenAPI document, overriding any info section provided in the application.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+contactEmail+
+
+|string
+
+|
+
+|+Sets the info.contact.email field in the OpenAPI document. This field contains the e-mail address of a contact responsible for the API being documented.+
+
+|+contactName+
+
+|string
+
+|
+
+|+Sets the info.contact.name field in the OpenAPI document. This field contains the name of a contact responsible for the API being documented.+
+
+|+contactUrl+
+
+|string
+
+|
+
+|+Sets the info.contact.url field in the OpenAPI document. This field contains the URL of a contact responsible for the API being documented.+
+
+|+description+
+
+|string
+
+|
+
+|+Sets info.description in the OpenAPI document. This field contains a description of the API being documented.+
+
+|+licenseIdentifier+
+
+|string
+
+|
+
+|+Sets the info.license.identifier field in the OpenAPI document. This field contains an SPDX license expression for the license for the API being documented. This attribute is ignored if the OpenAPI version is less than 3.1.+
+
+|+licenseName+
+
+|string
+
+|
+
+|+Sets the info.license.name field in the OpenAPI document. This field contains the name of the license for the API being documented.+
+
+|+licenseUrl+
+
+|string
+
+|
+
+|+Sets the info.license.url field in the OpenAPI document. This field contains a URL at which the full license for the API being documented can be found.+
+
+|+summary+
+
+|string
+
+|
+
+|+Sets the info.summary field in the OpenAPI document. This field contains a short summary of the API being documented. This attribute is ignored if the OpenAPI version is less than 3.1.+
+
+|+termsOfService+
+
+|string
+
+|
+
+|+Sets the info.termsOfService field in the OpenAPI document. This field contains the URL of the terms of service document for the API being documented.+
+
+|+title+
+
+|string
+
+|
+
+|+Sets info.title in the OpenAPI document. This field contains the title of the API being documented.+
+
+|+version+
+
+|string
+
+|
+
+|+Sets the info.version field in the OpenAPI document. This field contains the version number of the API being documented.+
 |===
