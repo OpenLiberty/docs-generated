@@ -591,6 +591,12 @@
     *** xref:javadoc/spi/mpMetrics-5.1.com.ibm.wsspi.http.ee8.adoc[com.ibm.wsspi.http.ee8]
   ** MicroProfile OpenTracing 3.0
     *** xref:javadoc/spi/mpOpenTracing-3.0.adoc[io.openliberty.opentracing.spi.tracer]
+  ** MicroProfile Telemetry 1.0
+    *** xref:javadoc/spi/mpTelemetry-1.0.adoc[io.openliberty.microprofile.telemetry.spi]
+  ** MicroProfile Telemetry 1.1
+    *** xref:javadoc/spi/mpTelemetry-1.1.adoc[io.openliberty.microprofile.telemetry.spi]
+  ** MicroProfile Telemetry 2.0
+    *** xref:javadoc/spi/mpTelemetry-2.0.adoc[io.openliberty.microprofile.telemetry.spi]
   ** OAuth 2.0
     *** xref:javadoc/spi/oauth-2.0.com.ibm.wsspi.security.oauth20.adoc[com.ibm.wsspi.security.oauth20]
     *** xref:javadoc/spi/oauth-2.0.com.ibm.wsspi.security.openidconnect.adoc[com.ibm.wsspi.security.openidconnect]
