@@ -207,6 +207,14 @@ Max: +100+
 
 |+Specifies whether the transaction manager will stop an application server that is part of a recoveryGroup if an unrecoverable error occurs accessing its own transaction service logs.+
 
+|+throwCheckedExceptions+
+
+|boolean
+
+|+false+
+
+|+Specifies whether methods annotated with @Transactional can throw undeclared checked exceptions.+
+
 |+timeoutGracePeriodEnabled+
 
 |boolean

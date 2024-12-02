@@ -66,6 +66,7 @@ include::./mpHealth-4.0/examples.adoc[opts=optional]
 * feature:microProfile-5.0[]
 * feature:microProfile-6.0[]
 * feature:microProfile-6.1[]
+* feature:microProfile-7.0[]
 // end::dependencies[]
 // tag::feature-require[]
 
