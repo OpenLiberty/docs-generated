@@ -250,7 +250,7 @@ This is specified as a child element rather than as an XML attribute (maximum oc
 
 |
 
-|+Specifies the header names and values that are added to each HTTP response. Header values are optionally included by using a colon (:) delimiter. Any header name that is defined by using this attribute must not be empty or present in the 'remove', 'set', or 'setIfMissing' header configurations.+
+|+Specifies the header names and values that are added to each HTTP response. Header values are optionally included by using a colon (:) delimiter. Any header name that is defined by using this child element must not be empty or present in the 'remove', 'set', or 'setIfMissing' header configurations.+
 
 |+remove+
 
@@ -258,7 +258,7 @@ This is specified as a child element rather than as an XML attribute (maximum oc
 
 |
 
-|+Specifies the header names that are removed from each HTTP response. Any header name that is defined by using this attribute must not be empty. No header values are expected. Any header name that is defined by using this attribute must not be present in the 'add', 'set', or 'setIfMissing' header configurations.+
+|+Specifies the header names that are removed from each HTTP response. Any header name that is defined by using this child element must not be empty. No header values are expected. Any header name that is defined by using this child element must not be present in the 'add', 'set', or 'setIfMissing' header configurations.+
 
 |+set+
 
@@ -266,7 +266,7 @@ This is specified as a child element rather than as an XML attribute (maximum oc
 
 |
 
-|+Specifies the header names and values that are set to each HTTP response. Header values are optionally included by using a colon (:) delimiter. Any header name that is defined by using this attribute must not be empty, defined more than once, or present in the 'remove', 'add', or 'setIfEmpty'  header configurations. If the header is already present on the response, existing values are overwritten in favor of this configuration.+
+|+Specifies the header names and values that are set to each HTTP response. Header values are optionally included by using a colon (:) delimiter. Any header name that is defined by using this child element must not be empty, defined more than once, or present in the 'remove', 'add', or 'setIfEmpty'  header configurations. If the header is already present on the response, existing values are overwritten in favor of this configuration.+
 
 |+setIfMissing+
 
@@ -274,7 +274,7 @@ This is specified as a child element rather than as an XML attribute (maximum oc
 
 |
 
-|+Specifies the header names and values that are set to each HTTP response if not already present. Header values are optionally included by using a colon (:) delimiter. Any header name that is defined by using this attribute must not be empty, defined more than once, or present in the 'remove', 'add', or 'set' header configurations.+
+|+Specifies the header names and values that are set to each HTTP response if not already present. Header values are optionally included by using a colon (:) delimiter. Any header name that is defined by using this child element must not be empty, defined more than once, or present in the 'remove', 'add', or 'set' header configurations.+
 |===
 [#+httpOptions+]*httpOptions*
 
@@ -601,6 +601,14 @@ Max: +2147483647+
 |
 
 |+The default SSL configuration repertoire. The default value is defaultSSLConfig.+
+
+|+sslSessionCacheSize+
+
+|int
+
+|+100+
+
+|+The maximum number of session objects that can be stored in the cache.+
 
 |+sslSessionTimeout+
 
