@@ -293,6 +293,14 @@ Max: +2147483647+
 
 |+The default SSL configuration repertoire. The default value is defaultSSLConfig.+
 
+|+sslSessionCacheSize+
+
+|int
+
+|+100+
+
+|+The maximum number of session objects that can be stored in the cache.+
+
 |+sslSessionTimeout+
 
 |A period of time with millisecond precision
