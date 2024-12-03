@@ -3,6 +3,7 @@
 The following tables list the currently available features and corresponding versionless features for each MicroProfile platform version. You can declare up to 2 platform elements, one for MicroProfile and another for either Jakarta EE or Java EE.
 
 - <<7-0, MicroProfile 7.0>>
+- <<6-1, MicroProfile 6.1>>
 - <<6-0, MicroProfile 6.0>>
 - <<5-0, MicroProfile 5.0>>
 - <<4-1, MicroProfile 4.1>>
