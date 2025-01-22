@@ -87,6 +87,7 @@ include::./appSecurity-3.0/examples.adoc[opts=optional]
 == Platform Versions
 
 * javaee-8.0
+* jakartaee-8.0
 // end::platform-versions[]
 // tag::dependencies[]
 

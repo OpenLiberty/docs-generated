@@ -62,6 +62,7 @@ include::./ejbPersistentTimer-3.2/examples.adoc[opts=optional]
 
 * javaee-7.0
 * javaee-8.0
+* jakartaee-8.0
 // end::platform-versions[]
 // tag::dependencies[]
 
