@@ -115,6 +115,7 @@ include::./mpMetrics-5.1/examples.adoc[opts=optional]
 == Platform Versions
 
 * microProfile-6.1
+* microProfile-7.0
 // end::platform-versions[]
 // tag::dependencies[]
 

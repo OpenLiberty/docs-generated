@@ -3,6 +3,7 @@
 The following tables list the currently available features and corresponding versionless features for each MicroProfile platform version. You can declare up to 2 platform elements, one for MicroProfile and another for either Jakarta EE or Java EE.
 
 - <<7-0, MicroProfile 7.0>>
+- <<6-1, MicroProfile 6.1>>
 - <<6-0, MicroProfile 6.0>>
 - <<5-0, MicroProfile 5.0>>
 - <<4-1, MicroProfile 4.1>>
@@ -23,8 +24,8 @@ For more information, see xref:reference:feature/versionless-features.adoc[Simpl
 == MicroProfile 7.0
 
 Platform short name: `microProfile-7.0`
-
-.microProfile-6.1 platform and versionless features
+ 
+.microProfile-7.0 platform and versionless features
 [%header,cols=3*]
 |===
 |Feature name
@@ -48,6 +49,9 @@ Platform short name: `microProfile-7.0`
 |MicroProfile JSON Web Token 2.1
 |feature:mpJwt-2.1[]
 |`mpJwt`
+|MicroProfile Metrics 5.1
+|feature:mpMetrics-5.1[]
+|`mpMetrics`
 |MicroProfile OpenAPI 4.0
 |feature:mpOpenAPI-4.0[]
 |`mpOpenAPI`
@@ -69,7 +73,7 @@ Platform short name: `microProfile-7.0`
 == MicroProfile 6.1
 
 Platform short name: `microProfile-6.1`
-
+ 
 .microProfile-6.1 platform and versionless features
 [%header,cols=3*]
 |===
@@ -118,7 +122,7 @@ Platform short name: `microProfile-6.1`
 == MicroProfile 6.0
 
 Platform short name: `microProfile-6.0`
-
+ 
 .microProfile-6.0 platform and versionless features
 [%header,cols=3*]
 |===
@@ -167,7 +171,7 @@ Platform short name: `microProfile-6.0`
 == MicroProfile 5.0
 
 Platform short name: `microProfile-5.0`
-
+ 
 .microProfile-5.0 platform and versionless features
 [%header,cols=3*]
 |===
@@ -216,7 +220,7 @@ Platform short name: `microProfile-5.0`
 == MicroProfile 4.1
 
 Platform short name: `microProfile-4.1`
-
+ 
 .microProfile-4.1 platform and versionless features
 [%header,cols=3*]
 |===
@@ -259,7 +263,7 @@ Platform short name: `microProfile-4.1`
 == MicroProfile 4.0
 
 Platform short name: `microProfile-4.0`
-
+ 
 .microProfile-4.0 platform and versionless features
 [%header,cols=3*]
 |===
@@ -302,7 +306,7 @@ Platform short name: `microProfile-4.0`
 == MicroProfile 3.3
 
 Platform short name: `microProfile-3.3`
-
+ 
 .microProfile-3.3 platform and versionless features
 [%header,cols=3*]
 |===
@@ -351,7 +355,7 @@ Platform short name: `microProfile-3.3`
 == MicroProfile 3.2
 
 Platform short name: `microProfile-3.2`
-
+ 
 .microProfile-3.2 platform and versionless features
 [%header,cols=3*]
 |===
@@ -397,7 +401,7 @@ Platform short name: `microProfile-3.2`
 == MicroProfile 3.0
 
 Platform short name: `microProfile-3.0`
-
+ 
 .microProfile-3.0 platform and versionless features
 [%header,cols=3*]
 |===
@@ -443,7 +447,7 @@ Platform short name: `microProfile-3.0`
 == MicroProfile 2.2
 
 Platform short name: `microProfile-2.2`
-
+ 
 .microProfile-2.2 platform and versionless features
 [%header,cols=3*]
 |===
@@ -489,7 +493,7 @@ Platform short name: `microProfile-2.2`
 == MicroProfile 2.1
 
 Platform short name: `microProfile-2.1`
-
+ 
 .microProfile-2.1 platform and versionless features
 [%header,cols=3*]
 |===
@@ -535,7 +539,7 @@ Platform short name: `microProfile-2.1`
 == MicroProfile 2.0
 
 Platform short name: `microProfile-2.0`
-
+ 
 .microProfile-2.0 platform and versionless features
 [%header,cols=3*]
 |===
@@ -581,7 +585,7 @@ Platform short name: `microProfile-2.0`
 == MicroProfile 1.4
 
 Platform short name: `microProfile-1.4`
-
+ 
 .microProfile-1.4 platform and versionless features
 [%header,cols=3*]
 |===
@@ -627,7 +631,7 @@ Platform short name: `microProfile-1.4`
 == MicroProfile 1.3
 
 Platform short name: `microProfile-1.3`
-
+ 
 .microProfile-1.3 platform and versionless features
 [%header,cols=3*]
 |===
@@ -670,7 +674,7 @@ Platform short name: `microProfile-1.3`
 == MicroProfile 1.2
 
 Platform short name: `microProfile-1.2`
-
+ 
 .microProfile-1.2 platform and versionless features
 [%header,cols=3*]
 |===
@@ -699,3 +703,4 @@ Platform short name: `microProfile-1.2`
 |feature:mpReactiveStreams-1.0[]
 |`mpReactiveStreams`
 |===
+

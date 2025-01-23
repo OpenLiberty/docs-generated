@@ -75,6 +75,12 @@ include::./mpOpenAPI-4.0/examples.adoc[opts=optional]
 * JavaSE-21.0
 * JavaSE-23.0
 // end::java-versions[]
+// tag::platform-versions[]
+
+== Platform Versions
+
+* microProfile-7.0
+// end::platform-versions[]
 // tag::dependencies[]
 
 == Features that enable this feature

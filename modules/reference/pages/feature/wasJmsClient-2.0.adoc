@@ -86,6 +86,7 @@ include::./wasJmsClient-2.0/examples.adoc[opts=optional]
 
 * javaee-7.0
 * javaee-8.0
+* jakartaee-8.0
 // end::platform-versions[]
 // tag::dependencies[]
 

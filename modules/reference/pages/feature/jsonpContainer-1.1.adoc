@@ -51,6 +51,7 @@ include::./jsonpContainer-1.1/examples.adoc[opts=optional]
 == Platform Versions
 
 * javaee-8.0
+* jakartaee-8.0
 // end::platform-versions[]
 // tag::dependencies[]
 // end::dependencies[]

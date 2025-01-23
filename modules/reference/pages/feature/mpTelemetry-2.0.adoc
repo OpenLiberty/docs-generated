@@ -42,6 +42,7 @@ include::./mpTelemetry-2.0/examples.adoc[opts=optional]
 * javadoc:io.opentelemetry.api.logs[]
 * javadoc:io.opentelemetry.api.metrics[]
 * javadoc:io.opentelemetry.api.trace[]
+* javadoc:io.opentelemetry.api.trace.propagation[]
 * javadoc:io.opentelemetry.context[]
 * javadoc:io.opentelemetry.context.propagation[]
 * javadoc:io.opentelemetry.exporter.logging[]
@@ -83,6 +84,12 @@ include::./mpTelemetry-2.0/examples.adoc[opts=optional]
 * JavaSE-21.0
 * JavaSE-23.0
 // end::java-versions[]
+// tag::platform-versions[]
+
+== Platform Versions
+
+* microProfile-7.0
+// end::platform-versions[]
 // tag::dependencies[]
 
 == Features that enable this feature
