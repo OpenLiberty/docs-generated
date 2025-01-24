@@ -73,6 +73,20 @@ Required
 |
 
 |+Enables use of Jandex index files if they are supplied in the application+
+
+|+webModuleClassPathLoader+
+
+|* +ear+
+* +war+
+
+
+|
+
+|+This attribute defines the class loader that is used for JARs that are referenced by web application Class-Path headers.+ +
+*+ear+* +
++Use the parent enterprise application class loader for the JARs that are referenced by a web application Class-Path header.+ +
+*+war+* +
++Use the web application class loader for the JARs that are referenced by a web application Class-Path header.+
 |===
 [#+appProperties+]*appProperties*
 
