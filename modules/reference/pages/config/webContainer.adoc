@@ -23,7 +23,7 @@
 
 |
 
-|+When this property is set to true, the runtime treats the filename argument on the part.write method call as an absolute location, rather than saving the filename arguement under the temporary location. In servlet-6.0 and earlier, the default value is false. In servlet-6.1 and later, the default value is true.+
+|+When this property is set to true, the runtime treats the filename argument on the part.write method call as an absolute location, rather than saving the filename argument under the temporary location. In servlet-6.1 and later, the default value is true. In servlet-6.0 and earlier, the default value is false.+
 
 |+allowExpressionFactoryPerApp+
 
@@ -31,7 +31,7 @@
 
 |+false+
 
-|+Toggle to load the ExpressionFactory that is set by the application. Enable this custom property if you are using a custom EL implementation (for example, JUEL) that needs to set its own ExpressionFactory.+
+|+Enable this property to load the ExpressionFactory that is set by the application. Enable this custom property if you use a custom EL implementation (for example, JUEL) that needs to set its own ExpressionFactory.+
 
 |+allowIncludeSendError+
 
@@ -47,7 +47,7 @@
 
 |
 
-|+When this property is set to true, if the query parameter in a URL contains only the string name, the server returns an empty string as the value for the request.getParameter(name) query. When this property is set to false, the server returns null as the value for the request.getParameter(name) query. The default value is false, but is true for servlet 5.0 and higher.+
+|+This property determines how the server responds when the query parameter in a URL contains only the string name. When it is set to true, the server returns an empty string as the value for the request.getParameter(name) query. When it is set to false, the server returns null as the value for the request.getParameter(name) query. In servlet-5.0 and later, the default value is true. In servlet-4.0 and earlier, the default is false.+
 
 |+asyncMaxSizeTaskPool+
 
@@ -71,7 +71,7 @@
 
 |+30000+
 
-|+Async servlet timeout value used when a timeout value has not been explcitly specified. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.asynctimeoutdefault.+
+|+Async servlet timeout value that is used when a timeout value is not explicitly specified. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.asynctimeoutdefault.+
 
 |+asyncTimerThreads+
 
@@ -135,7 +135,7 @@
 
 |
 
-|+Toggle if you want to defer ServletRequestListener destroy when there is an error serving the request. The default value is false, but is true for servlet 5.0 and later. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.deferServletRequestListenerDestroyOnError.+
+|+Enable this property to defer the ServletRequestListener destroy method call when there is an error serving the request. In servlet-5.0 and later, the default value is true. In servlet-4.0 and earlier, the default is false. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.deferServletRequestListenerDestroyOnError.+
 
 |+directoryBrowsingEnabled+
 
@@ -183,7 +183,7 @@
 
 |
 
-|+A semi-colon delimited list of classes to be completely disallowed from being served by classname. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.donotservebyclassname.+
+|+A semicolon-separated list of classes by class name that are prohibited from being served. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.donotservebyclassname.+
 
 |+donotCloseOutputOnForwardForServletError+
 
@@ -191,7 +191,7 @@
 
 |
 
-|+When this property is set to true, if a servlet called from dispatch forward throws an exception other than IOException and ServletException, the output is not automatically closed.+
+|+When this property is set to true, the output is not automatically closed if a servlet called from dispatch forward throws an exception other than IOException and ServletException,+
 
 |+emptyServletMappings+
 
@@ -247,7 +247,7 @@
 
 |+false+
 
-|+When this property is set to true, a servlet can access static files in the WEB-INF directory. When this property is set to false, which is the default, a servlet cannot access static files in the WEB-INF directory.+
+|+When this property is set to true, a servlet can access static files in the WEB-INF directory. When this property is set to false, which is the default, servlets cannot access static files in the WEB-INF directory.+
 
 |+fileServingEnabled+
 
@@ -263,7 +263,7 @@
 
 |+false+
 
-|+Web container will generate SMF and PMI data when  serving the static files. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.fileWrapperEvents.+
+|+The web container generates SMF and PMI data when it serves static files. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.fileWrapperEvents.+
 
 |+getRealPathReturnsQualifiedPath+
 
@@ -343,7 +343,7 @@
 
 |+false+
 
-|+Web container will detect non URL encoded UTF-8 post data and include it in the parameter values. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.parseutf8postdata.+
+|+The web container detects non-URL encoded UTF-8 post data and includes it in the parameter values. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.parseutf8postdata.+
 
 |+redirectToRelativeUrl+
 
@@ -399,7 +399,7 @@
 
 |+true+
 
-|+When this property is false, the webcontainer will not set the response's content type header during the error handling process. An application is responsible to set the response's content type. The default value (true) sets the content type to "text/html".+
+|+When this property is false, the web container does not set the response content-type header during the error handling process. An application is responsible for setting the response content type. The default value (true) sets the content type to "text/html".+
 
 |+skipEncodedCharVerification+
 
