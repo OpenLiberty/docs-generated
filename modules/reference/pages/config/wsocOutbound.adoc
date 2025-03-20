@@ -118,6 +118,14 @@ Min: +0+
 
 |+Specifies the amount of time, in seconds, that an HTTP/2 connection will be allowed to remain idle between socket IO operations. If not specified, or set to a value of 0, there is no connection timeout set. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
+|+ignoreWriteAfterCommit+
+
+|boolean
+
+|+false+
+
+|+When this attribute is set to true, the HTTP channel ignores write attempts if the message is already committed. If it is set to false, which is the default, any attempt to write after the message is committed results in a MessageSentException exception.+
+
 |+incomingBodyBufferSize+
 
 |int +

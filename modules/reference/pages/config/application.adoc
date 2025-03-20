@@ -1829,7 +1829,7 @@ Required
 
 |
 
-|+Fully qualified filename+
+|+The path to a file can be a fully qualified path or a relative path. Relative paths are relative to the value of the ${server.config.dir} property.+
 |===
 [#+classloader/commonLibrary/fileset+]*classloader > commonLibrary > fileset*
 
@@ -1904,7 +1904,7 @@ Required
 
 |
 
-|+Directory or folder to be included in the library classpath for locating resource files+
+|+The path to a folder can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 
 |+id+
 
@@ -1913,6 +1913,32 @@ Required
 |
 
 |+A unique configuration ID.+
+|===
+[#+classloader/commonLibrary/path+]*classloader > commonLibrary > path*
+
++Id of referenced path+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|A file, directory or url. +
+Required
+
+|
+
+|+The path can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 |===
 [#+classloader/privateLibrary+]*classloader > privateLibrary*
 
@@ -1987,7 +2013,7 @@ Required
 
 |
 
-|+Fully qualified filename+
+|+The path to a file can be a fully qualified path or a relative path. Relative paths are relative to the value of the ${server.config.dir} property.+
 |===
 [#+classloader/privateLibrary/fileset+]*classloader > privateLibrary > fileset*
 
@@ -2062,7 +2088,7 @@ Required
 
 |
 
-|+Directory or folder to be included in the library classpath for locating resource files+
+|+The path to a folder can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 
 |+id+
 
@@ -2071,6 +2097,32 @@ Required
 |
 
 |+A unique configuration ID.+
+|===
+[#+classloader/privateLibrary/path+]*classloader > privateLibrary > path*
+
++Id of referenced path+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|A file, directory or url. +
+Required
+
+|
+
+|+The path can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 |===
 [#+ejb-jar-bnd+]*ejb-jar-bnd*
 
@@ -6472,7 +6524,7 @@ Required
 
 |
 
-|+Fully qualified filename+
+|+The path to a file can be a fully qualified path or a relative path. Relative paths are relative to the value of the ${server.config.dir} property.+
 |===
 [#+startAfter/classloader/commonLibrary/fileset+]*startAfter > classloader > commonLibrary > fileset*
 
@@ -6547,7 +6599,7 @@ Required
 
 |
 
-|+Directory or folder to be included in the library classpath for locating resource files+
+|+The path to a folder can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 
 |+id+
 
@@ -6556,6 +6608,32 @@ Required
 |
 
 |+A unique configuration ID.+
+|===
+[#+startAfter/classloader/commonLibrary/path+]*startAfter > classloader > commonLibrary > path*
+
++Id of referenced path+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|A file, directory or url. +
+Required
+
+|
+
+|+The path can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 |===
 [#+startAfter/classloader/privateLibrary+]*startAfter > classloader > privateLibrary*
 
@@ -6630,7 +6708,7 @@ Required
 
 |
 
-|+Fully qualified filename+
+|+The path to a file can be a fully qualified path or a relative path. Relative paths are relative to the value of the ${server.config.dir} property.+
 |===
 [#+startAfter/classloader/privateLibrary/fileset+]*startAfter > classloader > privateLibrary > fileset*
 
@@ -6705,7 +6783,7 @@ Required
 
 |
 
-|+Directory or folder to be included in the library classpath for locating resource files+
+|+The path to a folder can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 
 |+id+
 
@@ -6714,6 +6792,32 @@ Required
 |
 
 |+A unique configuration ID.+
+|===
+[#+startAfter/classloader/privateLibrary/path+]*startAfter > classloader > privateLibrary > path*
+
++Id of referenced path+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|A file, directory or url. +
+Required
+
+|
+
+|+The path can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 |===
 [#+startAfter/ejb-jar-bnd+]*startAfter > ejb-jar-bnd*
 
