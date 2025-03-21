@@ -208,7 +208,7 @@ Required
 
 |
 
-|+Fully qualified filename+
+|+The path to a file can be a fully qualified path or a relative path. Relative paths are relative to the value of the ${server.config.dir} property.+
 |===
 [#+cache/cacheManager/cachingProvider/commonLibrary/fileset+]*cache > cacheManager > cachingProvider > commonLibrary > fileset*
 
@@ -283,7 +283,7 @@ Required
 
 |
 
-|+Directory or folder to be included in the library classpath for locating resource files+
+|+The path to a folder can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 
 |+id+
 
@@ -292,6 +292,32 @@ Required
 |
 
 |+A unique configuration ID.+
+|===
+[#+cache/cacheManager/cachingProvider/commonLibrary/path+]*cache > cacheManager > cachingProvider > commonLibrary > path*
+
++Id of referenced path+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|A file, directory or url. +
+Required
+
+|
+
+|+The path can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 |===
 [#+cache/cacheManager/cachingProvider/jCacheLibrary+]*cache > cacheManager > cachingProvider > jCacheLibrary*
 
@@ -358,7 +384,7 @@ Required
 
 |
 
-|+Fully qualified filename+
+|+The path to a file can be a fully qualified path or a relative path. Relative paths are relative to the value of the ${server.config.dir} property.+
 |===
 [#+cache/cacheManager/cachingProvider/jCacheLibrary/fileset+]*cache > cacheManager > cachingProvider > jCacheLibrary > fileset*
 
@@ -433,7 +459,7 @@ Required
 
 |
 
-|+Directory or folder to be included in the library classpath for locating resource files+
+|+The path to a folder can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 
 |+id+
 
@@ -442,6 +468,32 @@ Required
 |
 
 |+A unique configuration ID.+
+|===
+[#+cache/cacheManager/cachingProvider/jCacheLibrary/path+]*cache > cacheManager > cachingProvider > jCacheLibrary > path*
+
++Id of referenced path+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|A file, directory or url. +
+Required
+
+|
+
+|+The path can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 |===
 [#+cache/cacheManager/properties+]*cache > cacheManager > properties*
 

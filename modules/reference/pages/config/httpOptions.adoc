@@ -93,6 +93,14 @@ Min: +0+
 
 |+A unique configuration ID.+
 
+|+ignoreWriteAfterCommit+
+
+|boolean
+
+|+false+
+
+|+When this attribute is set to true, the HTTP channel ignores write attempts if the message is already committed. If it is set to false, which is the default, any attempt to write after the message is committed results in a MessageSentException exception.+
+
 |+incomingBodyBufferSize+
 
 |int +

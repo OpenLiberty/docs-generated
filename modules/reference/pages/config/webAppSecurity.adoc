@@ -452,7 +452,7 @@ Required
 
 |
 
-|+Fully qualified filename+
+|+The path to a file can be a fully qualified path or a relative path. Relative paths are relative to the value of the ${server.config.dir} property.+
 |===
 [#+loggedOutCookieCache/cacheManager/cachingProvider/commonLibrary/fileset+]*loggedOutCookieCache > cacheManager > cachingProvider > commonLibrary > fileset*
 
@@ -527,7 +527,7 @@ Required
 
 |
 
-|+Directory or folder to be included in the library classpath for locating resource files+
+|+The path to a folder can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 
 |+id+
 
@@ -536,6 +536,32 @@ Required
 |
 
 |+A unique configuration ID.+
+|===
+[#+loggedOutCookieCache/cacheManager/cachingProvider/commonLibrary/path+]*loggedOutCookieCache > cacheManager > cachingProvider > commonLibrary > path*
+
++Id of referenced path+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|A file, directory or url. +
+Required
+
+|
+
+|+The path can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 |===
 [#+loggedOutCookieCache/cacheManager/cachingProvider/jCacheLibrary+]*loggedOutCookieCache > cacheManager > cachingProvider > jCacheLibrary*
 
@@ -602,7 +628,7 @@ Required
 
 |
 
-|+Fully qualified filename+
+|+The path to a file can be a fully qualified path or a relative path. Relative paths are relative to the value of the ${server.config.dir} property.+
 |===
 [#+loggedOutCookieCache/cacheManager/cachingProvider/jCacheLibrary/fileset+]*loggedOutCookieCache > cacheManager > cachingProvider > jCacheLibrary > fileset*
 
@@ -677,7 +703,7 @@ Required
 
 |
 
-|+Directory or folder to be included in the library classpath for locating resource files+
+|+The path to a folder can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 
 |+id+
 
@@ -686,6 +712,32 @@ Required
 |
 
 |+A unique configuration ID.+
+|===
+[#+loggedOutCookieCache/cacheManager/cachingProvider/jCacheLibrary/path+]*loggedOutCookieCache > cacheManager > cachingProvider > jCacheLibrary > path*
+
++Id of referenced path+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|A file, directory or url. +
+Required
+
+|
+
+|+The path can be a fully qualified path or a relative path. Relative paths are relative to the value of  the ${server.config.dir} property.+
 |===
 [#+loggedOutCookieCache/cacheManager/properties+]*loggedOutCookieCache > cacheManager > properties*
 
