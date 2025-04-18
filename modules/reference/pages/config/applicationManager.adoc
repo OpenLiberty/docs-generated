@@ -23,7 +23,7 @@
 
 |+${server.config.dir}/apps/expanded/+
 
-|+The expandLocation attribute enables a user to set the location where the autoExpanded application is located. The default location is ${server.config.dir}/apps/expanded/.+
+|+The expandLocation attribute enables a user to set the location where the autoExpanded application is located. The default location is ${server.config.dir}/apps/expanded/. The same expandLocation location cannot be shared among multiple servers.+
 
 |+startTimeout+
 
