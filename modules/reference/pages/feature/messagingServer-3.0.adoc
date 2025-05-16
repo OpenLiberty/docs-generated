@@ -27,6 +27,7 @@ include::./messagingServer-3.0/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
+* config:authData[]
 * config:channelfw[]
 * config:classloading[]
 * config:messagingEngine[]

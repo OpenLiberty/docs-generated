@@ -27,6 +27,7 @@ include::./batch-2.0/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
+* config:authData[]
 * config:batchPersistence[]
 * config:classloading[]
 * config:databaseStore[]
