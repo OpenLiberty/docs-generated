@@ -96,6 +96,7 @@ include::./mpJwt-2.1/examples.adoc[opts=optional]
 * microProfile-6.0
 * microProfile-6.1
 * microProfile-7.0
+* microProfile-7.1
 // end::platform-versions[]
 // tag::dependencies[]
 

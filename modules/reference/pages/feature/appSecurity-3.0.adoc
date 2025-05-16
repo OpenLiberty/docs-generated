@@ -56,6 +56,10 @@ include::./appSecurity-3.0/examples.adoc[opts=optional]
 * javadoc:javax.security.enterprise.authentication.mechanism.http[]
 * javadoc:javax.security.enterprise.credential[]
 * javadoc:javax.security.enterprise.identitystore[]
+* javadoc:javax.servlet[]
+* javadoc:javax.servlet.annotation[]
+* javadoc:javax.servlet.descriptor[]
+* javadoc:javax.servlet.http[]
 
 == Liberty API packages provided by this feature
 * xref:javadoc/api/appSecurity-3.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]

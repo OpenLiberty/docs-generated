@@ -29,6 +29,7 @@ include::./connectorsInboundSecurity-2.0/examples.adoc[opts=optional]
 == Feature configuration elements
 * config:administrator-role[]
 * config:authCache[]
+* config:authData[]
 * config:authentication[]
 * config:basicRegistry[]
 * config:cache[]

@@ -27,6 +27,7 @@ include::./j2eeManagement-1.1/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
+* config:authData[]
 * config:channelfw[]
 * config:classloading[]
 * config:orb[]

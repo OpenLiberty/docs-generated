@@ -27,6 +27,7 @@ include::./jpa-2.2/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
+* config:authData[]
 * config:classloading[]
 * config:transaction[]
 // end::config[]
