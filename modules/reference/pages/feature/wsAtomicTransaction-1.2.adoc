@@ -29,6 +29,7 @@ include::./wsAtomicTransaction-1.2/examples.adoc[opts=optional]
 == Feature configuration elements
 * config:administrator-role[]
 * config:authCache[]
+* config:authData[]
 * config:authFilter[]
 * config:authentication[]
 * config:authorization-roles[]

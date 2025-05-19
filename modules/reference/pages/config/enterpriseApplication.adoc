@@ -9,6 +9,14 @@
 |===
 |Name|Type|Default|Description
 
+|+annotationScanLibrary+
+
+|string
+
+|
+
+|+Configure which libraries are going to be scanned for Web Application annotations in a comma seperated list. Valid options are earLibraries, manifestClassPath, or all.+
+
 |+autoStart+
 
 |boolean
@@ -1793,7 +1801,7 @@ This is specified as a child element rather than as an XML attribute.
 
 |
 
-|+Id of referenced Fileset+
+|+Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 |+id+
 
@@ -1813,7 +1821,7 @@ This is specified as a child element rather than as an XML attribute.
 |===
 [#+classloader/commonLibrary/file+]*classloader > commonLibrary > file*
 
-+Id of referenced File+
++Add a JAR or ZIP file to include in the class path for this library. Classes and resources that are contained in the specified JAR or ZIP are available to load for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -1839,7 +1847,7 @@ Required
 |===
 [#+classloader/commonLibrary/fileset+]*classloader > commonLibrary > fileset*
 
-+Id of referenced Fileset+
++Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -1896,7 +1904,7 @@ Required
 |===
 [#+classloader/commonLibrary/folder+]*classloader > commonLibrary > folder*
 
-+Id of referenced folder+
++Add a folder to include in the class path for this library. Classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files that are contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -1922,7 +1930,7 @@ Required
 |===
 [#+classloader/commonLibrary/path+]*classloader > commonLibrary > path*
 
-+Id of referenced path+
++Add a JAR file, ZIP file or folder to include in the class path for this library. If the specified path is a JAR or ZIP file, then classes and resources that are contained in the specified JAR or ZIP file are available to load for this library. If the specified path is a folder, then classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -1977,7 +1985,7 @@ Required
 
 |
 
-|+Id of referenced Fileset+
+|+Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 |+id+
 
@@ -1997,7 +2005,7 @@ Required
 |===
 [#+classloader/privateLibrary/file+]*classloader > privateLibrary > file*
 
-+Id of referenced File+
++Add a JAR or ZIP file to include in the class path for this library. Classes and resources that are contained in the specified JAR or ZIP are available to load for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -2023,7 +2031,7 @@ Required
 |===
 [#+classloader/privateLibrary/fileset+]*classloader > privateLibrary > fileset*
 
-+Id of referenced Fileset+
++Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -2080,7 +2088,7 @@ Required
 |===
 [#+classloader/privateLibrary/folder+]*classloader > privateLibrary > folder*
 
-+Id of referenced folder+
++Add a folder to include in the class path for this library. Classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files that are contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -2106,7 +2114,7 @@ Required
 |===
 [#+classloader/privateLibrary/path+]*classloader > privateLibrary > path*
 
-+Id of referenced path+
++Add a JAR file, ZIP file or folder to include in the class path for this library. If the specified path is a JAR or ZIP file, then classes and resources that are contained in the specified JAR or ZIP file are available to load for this library. If the specified path is a folder, then classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -6488,7 +6496,7 @@ This is specified as a child element rather than as an XML attribute.
 
 |
 
-|+Id of referenced Fileset+
+|+Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 |+id+
 
@@ -6508,7 +6516,7 @@ This is specified as a child element rather than as an XML attribute.
 |===
 [#+startAfter/classloader/commonLibrary/file+]*startAfter > classloader > commonLibrary > file*
 
-+Id of referenced File+
++Add a JAR or ZIP file to include in the class path for this library. Classes and resources that are contained in the specified JAR or ZIP are available to load for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -6534,7 +6542,7 @@ Required
 |===
 [#+startAfter/classloader/commonLibrary/fileset+]*startAfter > classloader > commonLibrary > fileset*
 
-+Id of referenced Fileset+
++Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -6591,7 +6599,7 @@ Required
 |===
 [#+startAfter/classloader/commonLibrary/folder+]*startAfter > classloader > commonLibrary > folder*
 
-+Id of referenced folder+
++Add a folder to include in the class path for this library. Classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files that are contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -6617,7 +6625,7 @@ Required
 |===
 [#+startAfter/classloader/commonLibrary/path+]*startAfter > classloader > commonLibrary > path*
 
-+Id of referenced path+
++Add a JAR file, ZIP file or folder to include in the class path for this library. If the specified path is a JAR or ZIP file, then classes and resources that are contained in the specified JAR or ZIP file are available to load for this library. If the specified path is a folder, then classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -6672,7 +6680,7 @@ Required
 
 |
 
-|+Id of referenced Fileset+
+|+Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 |+id+
 
@@ -6692,7 +6700,7 @@ Required
 |===
 [#+startAfter/classloader/privateLibrary/file+]*startAfter > classloader > privateLibrary > file*
 
-+Id of referenced File+
++Add a JAR or ZIP file to include in the class path for this library. Classes and resources that are contained in the specified JAR or ZIP are available to load for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -6718,7 +6726,7 @@ Required
 |===
 [#+startAfter/classloader/privateLibrary/fileset+]*startAfter > classloader > privateLibrary > fileset*
 
-+Id of referenced Fileset+
++Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -6775,7 +6783,7 @@ Required
 |===
 [#+startAfter/classloader/privateLibrary/folder+]*startAfter > classloader > privateLibrary > folder*
 
-+Id of referenced folder+
++Add a folder to include in the class path for this library. Classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files that are contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -6801,7 +6809,7 @@ Required
 |===
 [#+startAfter/classloader/privateLibrary/path+]*startAfter > classloader > privateLibrary > path*
 
-+Id of referenced path+
++Add a JAR file, ZIP file or folder to include in the class path for this library. If the specified path is a JAR or ZIP file, then classes and resources that are contained in the specified JAR or ZIP file are available to load for this library. If the specified path is a folder, then classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]

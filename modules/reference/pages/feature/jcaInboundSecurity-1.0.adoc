@@ -29,6 +29,7 @@ include::./jcaInboundSecurity-1.0/examples.adoc[opts=optional]
 == Feature configuration elements
 * config:administrator-role[]
 * config:authCache[]
+* config:authData[]
 * config:authentication[]
 * config:basicRegistry[]
 * config:cache[]
@@ -50,6 +51,10 @@ include::./jcaInboundSecurity-1.0/examples.adoc[opts=optional]
 
 == Standard API packages provided by this feature
 * javadoc:javax.security.auth.message.callback[]
+* javadoc:javax.servlet[]
+* javadoc:javax.servlet.annotation[]
+* javadoc:javax.servlet.descriptor[]
+* javadoc:javax.servlet.http[]
 
 == Liberty API packages provided by this feature
 * xref:javadoc/api/jcaInboundSecurity-1.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]

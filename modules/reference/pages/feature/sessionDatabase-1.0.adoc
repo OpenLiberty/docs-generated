@@ -27,6 +27,7 @@ include::./sessionDatabase-1.0/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
+* config:authData[]
 * config:classloading[]
 * config:httpSession[]
 * config:httpSessionDatabase[]

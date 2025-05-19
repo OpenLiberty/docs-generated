@@ -27,6 +27,7 @@ include::./jpaContainer-2.1/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
+* config:authData[]
 * config:classloader[]
 * config:classloading[]
 * config:jpa[]

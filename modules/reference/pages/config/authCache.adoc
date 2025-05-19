@@ -166,7 +166,7 @@ Required
 
 |
 
-|+Id of referenced Fileset+
+|+Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 |+id+
 
@@ -186,7 +186,7 @@ Required
 |===
 [#+cache/cacheManager/cachingProvider/commonLibrary/file+]*cache > cacheManager > cachingProvider > commonLibrary > file*
 
-+Id of referenced File+
++Add a JAR or ZIP file to include in the class path for this library. Classes and resources that are contained in the specified JAR or ZIP are available to load for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -212,7 +212,7 @@ Required
 |===
 [#+cache/cacheManager/cachingProvider/commonLibrary/fileset+]*cache > cacheManager > cachingProvider > commonLibrary > fileset*
 
-+Id of referenced Fileset+
++Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -269,7 +269,7 @@ Required
 |===
 [#+cache/cacheManager/cachingProvider/commonLibrary/folder+]*cache > cacheManager > cachingProvider > commonLibrary > folder*
 
-+Id of referenced folder+
++Add a folder to include in the class path for this library. Classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files that are contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -295,7 +295,7 @@ Required
 |===
 [#+cache/cacheManager/cachingProvider/commonLibrary/path+]*cache > cacheManager > cachingProvider > commonLibrary > path*
 
-+Id of referenced path+
++Add a JAR file, ZIP file or folder to include in the class path for this library. If the specified path is a JAR or ZIP file, then classes and resources that are contained in the specified JAR or ZIP file are available to load for this library. If the specified path is a folder, then classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -350,7 +350,7 @@ Required
 
 |
 
-|+Id of referenced Fileset+
+|+Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 |+name+
 
@@ -362,7 +362,7 @@ Required
 |===
 [#+cache/cacheManager/cachingProvider/jCacheLibrary/file+]*cache > cacheManager > cachingProvider > jCacheLibrary > file*
 
-+Id of referenced File+
++Add a JAR or ZIP file to include in the class path for this library. Classes and resources that are contained in the specified JAR or ZIP are available to load for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -388,7 +388,7 @@ Required
 |===
 [#+cache/cacheManager/cachingProvider/jCacheLibrary/fileset+]*cache > cacheManager > cachingProvider > jCacheLibrary > fileset*
 
-+Id of referenced Fileset+
++Specifies a set of JAR or ZIP files to include in the class path for this library+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -445,7 +445,7 @@ Required
 |===
 [#+cache/cacheManager/cachingProvider/jCacheLibrary/folder+]*cache > cacheManager > cachingProvider > jCacheLibrary > folder*
 
-+Id of referenced folder+
++Add a folder to include in the class path for this library. Classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files that are contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -471,7 +471,7 @@ Required
 |===
 [#+cache/cacheManager/cachingProvider/jCacheLibrary/path+]*cache > cacheManager > cachingProvider > jCacheLibrary > path*
 
-+Id of referenced path+
++Add a JAR file, ZIP file or folder to include in the class path for this library. If the specified path is a JAR or ZIP file, then classes and resources that are contained in the specified JAR or ZIP file are available to load for this library. If the specified path is a folder, then classes and resources that are contained in the specified folder and its subfolders are available to load for this library. JAR and ZIP files contained in the specified folder are not added to the class path for this library.+
 
 
 [cols="a,a,a,a",width="100%"]

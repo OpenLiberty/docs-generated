@@ -462,7 +462,7 @@ Max: +500+
 
 |+100+
 
-|+Specifies the maximum number of streams that an HTTP/2 connection can have active at any given point. Opening streams over the limit, will result on a REFUSED_STREAM (0x7). If not specified, the default value of concurrent streams will be set to 200.+
+|+Specifies the maximum number of streams that an HTTP/2 connection can have active at any given point. Opening streams over the limit, will result on a REFUSED_STREAM (0x7). If not specified, the default value of concurrent streams will be set to 100.+
 
 |+maxFrameSize+
 

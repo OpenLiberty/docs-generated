@@ -29,6 +29,7 @@ include::./wasJmsSecurity-1.0/examples.adoc[opts=optional]
 == Feature configuration elements
 * config:administrator-role[]
 * config:authCache[]
+* config:authData[]
 * config:authentication[]
 * config:basicRegistry[]
 * config:cache[]
@@ -47,6 +48,12 @@ include::./wasJmsSecurity-1.0/examples.adoc[opts=optional]
 * config:trustAssociation[]
 // end::config[]
 // tag::apis[]
+
+== Standard API packages provided by this feature
+* javadoc:javax.servlet[]
+* javadoc:javax.servlet.annotation[]
+* javadoc:javax.servlet.descriptor[]
+* javadoc:javax.servlet.http[]
 
 == Liberty API packages provided by this feature
 * xref:javadoc/api/wasJmsSecurity-1.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]

@@ -27,6 +27,7 @@ include::./ejbPersistentTimer-3.2/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
+* config:authData[]
 * config:classloading[]
 * config:databaseStore[]
 * config:persistentExecutor[]
