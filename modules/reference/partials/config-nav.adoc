@@ -114,6 +114,7 @@
   ** xref:config/mongo.adoc[mongo]
   ** xref:config/mongoDB.adoc[mongoDB]
   ** xref:config/monitor.adoc[monitor]
+  ** xref:config/mpHealth.adoc[mpHealth]
   ** xref:config/mpJwt.adoc[mpJwt]
   ** xref:config/mpMetrics.adoc[mpMetrics]
   ** xref:config/mpOpenAPI.adoc[mpOpenAPI]
