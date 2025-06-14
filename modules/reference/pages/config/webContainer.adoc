@@ -31,7 +31,7 @@
 
 |+false+
 
-|+Enable this property to load the ExpressionFactory that is set by the application. Enable this custom property if you use a custom EL implementation (for example, JUEL) that needs to set its own ExpressionFactory.+
+|+Enable this property to load the ExpressionFactory that is set by the application. Enable this custom property if you use a custom EL implementation (for example, JUEL) that needs to set its own ExpressionFactory. The equivalent custom property in the full profile application server is com.ibm.ws.jsp.allowExpressionFactoryPerApp.+
 
 |+allowIncludeSendError+
 
@@ -47,7 +47,7 @@
 
 |
 
-|+This property determines how the server responds when the query parameter in a URL contains only the string name. When it is set to true, the server returns an empty string as the value for the request.getParameter(name) query. When it is set to false, the server returns null as the value for the request.getParameter(name) query. In servlet-5.0 and later, the default value is true. In servlet-4.0 and earlier, the default is false.+
+|+This property determines how the server responds when the query parameter in a URL contains only the string name. When it is set to true, the server returns an empty string as the value for the request.getParameter(name) query. When it is set to false, the server returns null as the value for the request.getParameter(name) query. In servlet-5.0 and later, the default value is true. In servlet-4.0 and earlier, the default is false. The equivalent custom property in the full profile application server is com.ibm.ws.webcontainer.AllowQueryParamWithNoEqual.+
 
 |+asyncMaxSizeTaskPool+
 
@@ -335,7 +335,7 @@
 
 |+20+
 
-|+Initial size (number of entries) of the meta-inf resource cache. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.metainfresourcescachesize.name.+
+|+Initial size (number of entries) of the meta-inf resource cache. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.metainfresourcescachesize.+
 
 |+parseUtf8PostData+
 
@@ -423,7 +423,7 @@
 
 |
 
-|+Some web applications depend on context listeners for setup before the web application starts. When this property is set to true, the application stops starting up when an unhandled exception is thrown from the context listeners. For servlet-5.0 and newer Servlet features, the default value is true.+
+|+Some web applications depend on context listeners for setup before the web application starts. When this property is set to true, the application stops starting up when an unhandled exception is thrown from the context listeners. For servlet-5.0 and newer Servlet features, the default value is true. The equivalent custom property in the full profile application server is com.ibm.ws.webcontainer.stopappstartuponlistenerexception.+
 
 |+symbolicLinksCacheSize+
 
@@ -439,7 +439,7 @@
 
 |+true+
 
-|+Throw an illegal state exception when an asynchronous request cannot be completed or dispatched. The default is true. If the asynchronous request must complete or the dispatch method must return, even if the call does not succeed, set the property to false.+
+|+Throw an illegal state exception when an asynchronous request cannot be completed or dispatched. The default is true. If the asynchronous request must complete or the dispatch method must return, even if the call does not succeed, set the property to false. The equivalent custom property in the full profile application server is com.ibm.ws.webcontainer.throwexceptionwhenunabletocompleteordispatch.+
 
 |+tolerateSymbolicLinks+
 
