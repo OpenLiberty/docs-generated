@@ -1,0 +1,27 @@
+= +MicroProfile Health+ (+mpHealth+)
+:linkcss: 
+:page-layout: config
+:nofooter: 
+
++Configuration for MicroProfile Health.+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+checkInterval+
+
+|string
+
+|
+
+|+The value that you specify sets the interval at which the health checks are queried for the file-based health checks. The value is a number followed by an optional time unit of ms for milliseconds or s for seconds. If no time unit is specified, the value is in seconds by default. If the value is 0, 0s, 0ms or is empty, then the file-based health check function is disabled.+
+
+|+startupCheckInterval+
+
+|string
+
+|
+
+|+The value that you specify sets the interval at which the health checks are queried until an UP status is resolved and the health check file is created. The value is a number followed by an optional time unit of ms for milliseconds or s for seconds. If no time unit is specified for a value, the value is in milliseconds by default. If no value is specified, the default value is 100 ms.+
+|===
