@@ -73,6 +73,14 @@
 
 |+Specifies whether the application server logs about-to-commit-one-phase-resource events from transactions that involve both a one-phase commit resource and two-phase commit resources.+
 
+|+enableUserTransactionAsSpecified+
+
+|boolean
+
+|+false+
+
+|+Specifies whether UserTransaction methods should be enabled in NOT_SUPPORTED and NEVER @Transactional annotated methods.+
+
 |+heuristicRetryInterval+
 
 |A period of time with second precision
