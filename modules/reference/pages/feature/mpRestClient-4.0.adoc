@@ -68,6 +68,7 @@ include::./mpRestClient-4.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:microProfile-7.0[]
+* feature:microProfile-7.1[]
 // end::dependencies[]
 // tag::feature-require[]
 
