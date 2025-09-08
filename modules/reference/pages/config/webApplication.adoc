@@ -957,7 +957,7 @@ Required
 
 |
 
-|+List of library references. Library class instances are shared with other classloaders.+
+|+List of library references. Library class instances are shared with other class loaders.+
 
 |+delegation+
 
@@ -967,7 +967,7 @@ Required
 
 |+parentFirst+
 
-|+Controls whether parent classloader is used before or after this classloader. If parent first is selected then delegate to immediate parent before searching the classpath. If parent last is selected then search the classpath before delegating to the immediate parent.+
+|+Controls whether parent classloader is used before or after this class loader. If parent first is selected then delegate to immediate parent before searching the classpath. If parent last is selected then search the classpath before delegating to the immediate parent.+
 
 |+privateLibraryRef+
 
@@ -975,7 +975,7 @@ Required
 
 |
 
-|+List of library references. Library class instances are unique to this classloader, independent of class instances from other classloaders.+
+|+List of library references. Library class instances are unique to this class loader, independent of class instances from other class loaders. The referenced library class path is searched after searching the class path of this class loader.+
 |===
 [#+classloader/classProvider+]*classloader > classProvider*
 
@@ -1750,7 +1750,7 @@ This is specified as a child element rather than as an XML attribute.
 |===
 [#+classloader/commonLibrary+]*classloader > commonLibrary*
 
-+List of library references. Library class instances are shared with other classloaders.+
++List of library references. Library class instances are shared with other class loaders.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -1934,7 +1934,7 @@ Required
 |===
 [#+classloader/privateLibrary+]*classloader > privateLibrary*
 
-+List of library references. Library class instances are unique to this classloader, independent of class instances from other classloaders.+
++List of library references. Library class instances are unique to this class loader, independent of class instances from other class loaders. The referenced library class path is searched after searching the class path of this class loader.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -5379,7 +5379,7 @@ Required
 
 |
 
-|+List of library references. Library class instances are shared with other classloaders.+
+|+List of library references. Library class instances are shared with other class loaders.+
 
 |+delegation+
 
@@ -5389,7 +5389,7 @@ Required
 
 |+parentFirst+
 
-|+Controls whether parent classloader is used before or after this classloader. If parent first is selected then delegate to immediate parent before searching the classpath. If parent last is selected then search the classpath before delegating to the immediate parent.+
+|+Controls whether parent classloader is used before or after this class loader. If parent first is selected then delegate to immediate parent before searching the classpath. If parent last is selected then search the classpath before delegating to the immediate parent.+
 
 |+privateLibraryRef+
 
@@ -5397,7 +5397,7 @@ Required
 
 |
 
-|+List of library references. Library class instances are unique to this classloader, independent of class instances from other classloaders.+
+|+List of library references. Library class instances are unique to this class loader, independent of class instances from other class loaders. The referenced library class path is searched after searching the class path of this class loader.+
 |===
 [#+startAfter/classloader/classProvider+]*startAfter > classloader > classProvider*
 
@@ -6172,7 +6172,7 @@ This is specified as a child element rather than as an XML attribute.
 |===
 [#+startAfter/classloader/commonLibrary+]*startAfter > classloader > commonLibrary*
 
-+List of library references. Library class instances are shared with other classloaders.+
++List of library references. Library class instances are shared with other class loaders.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -6356,7 +6356,7 @@ Required
 |===
 [#+startAfter/classloader/privateLibrary+]*startAfter > classloader > privateLibrary*
 
-+List of library references. Library class instances are unique to this classloader, independent of class instances from other classloaders.+
++List of library references. Library class instances are unique to this class loader, independent of class instances from other class loaders. The referenced library class path is searched after searching the class path of this class loader.+
 
 
 [cols="a,a,a,a",width="100%"]
