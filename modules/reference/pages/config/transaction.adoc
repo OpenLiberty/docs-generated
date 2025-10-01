@@ -41,6 +41,14 @@
 
 |+Maximum duration between transactional requests from a remote client. Any period of client inactivity that exceeds this timeout results in the transaction being rolled back in this application server. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
+|+correctUOWScopeCallbacks+
+
+|boolean
+
+|+false+
+
+|+Specifies whether UOWScopeCallback methods should be called for UOWScope END events.+
+
 |+dataSourceRef+
 
 |A reference to top level dataSource element (string).

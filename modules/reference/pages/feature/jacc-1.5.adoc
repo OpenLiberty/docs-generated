@@ -51,7 +51,7 @@ include::./jacc-1.5/examples.adoc[opts=optional]
 * JavaSE-11.0
 * JavaSE-17.0
 * JavaSE-21.0
-* JavaSE-24.0
+* JavaSE-25.0
 // end::java-versions[]
 // tag::platform-versions[]
 
