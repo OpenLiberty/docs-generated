@@ -79,7 +79,7 @@
 
 |+720m+
 
-|+Amount of time after which a new JWK is generated (minutes). For example, specify 90 minutes as 90 or 90m. Minimum value is 60 minutes. Specify a positive integer followed by a unit of time, which can be hours (h) or minutes (m). For example, specify 30 minutes as 30m. You can include multiple values in a single entry. For example, 1h30m is equivalent to 90 minutes.+
+|+The amount of time after which a new JWK is generated in minutes. For example, specify 90 minutes as 90 or 90m. The minimum value is 0 minutes, where 0 minutes disables key rotation. Specify a positive integer followed by a unit of time, which can be hours (h) or minutes (m). For example, specify 30 minutes as 30m. You can include multiple values in a single entry. For example, 1h30m is equivalent to 90 minutes.+
 
 |+jwkSigningKeySize+
 
