@@ -88,7 +88,7 @@ Required
 * +war+
 
 
-|
+|+war+
 
 |+This attribute defines the class loader that is used for JARs that are referenced by web application Class-Path headers.+ +
 *+ear+* +

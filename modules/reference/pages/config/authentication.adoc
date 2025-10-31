@@ -25,6 +25,14 @@
 
 |+Enables the authentication cache.+
 
+|+ignoreCustomCacheKey+
+
+|boolean
+
+|+false+
+
+|+Specifies whether to ignore the custom cache key that is used when looking up the authentication cache.+
+
 |+useDisplayNameForSecurityName+
 
 |boolean
