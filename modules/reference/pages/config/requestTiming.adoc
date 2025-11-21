@@ -39,7 +39,7 @@
 
 |+false+
 
-|+Indicates whether a request that is hung is to be interrupted. A value of true causes the requestTiming-1.0 feature to attempt to interrupt the hung request. A value of false allows the request to continue to run.+
+|+Specifies whether a hung request is to be interrupted. When set to true, the requestTiming-1.0 feature attempts to interrupt the hung request. When set to false, the request continues to run. This feature is supported only on IBM JRE 8 and is not supported on IBM Semeru 8.+
 
 |+sampleRate+
 
