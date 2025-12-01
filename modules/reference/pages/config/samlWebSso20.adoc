@@ -356,20 +356,35 @@
 
 |+signatureMethodAlgorithm+
 
-|* +SHA1+
+|* +ECDSAwithSHA256+
+* +ECDSAwithSHA384+
+* +ECDSAwithSHA512+
+* +SHA1+
 * +SHA128+
 * +SHA256+
+* +SHA384+
+* +SHA512+
 
 
 |+SHA256+
 
-|+Indicates the required algorithm by this service provider.+ +
+|+Indicates the minimum signature algorithm that is required by this service provider.+ +
+*+ECDSAwithSHA256+* +
++ECDSA with SHA-256 signature algorithm+ +
+*+ECDSAwithSHA384+* +
++ECDSA with SHA-384 signature algorithm+ +
+*+ECDSAwithSHA512+* +
++ECDSA with SHA-512 signature algorithm+ +
 *+SHA1+* +
-+SHA-1 signature algorithm+ +
++RSA with SHA-1 signature algorithm+ +
 *+SHA128+* +
 +%signatureMethodAlgorithm.SHA128+ +
 *+SHA256+* +
-+SHA-256 signature algorithm+
++RSA with SHA-256 signature algorithm+ +
+*+SHA384+* +
++RSA with SHA-384 signature algorithm+ +
+*+SHA512+* +
++RSA with SHA-512 signature algorithm+
 
 |+spCookieName+
 
