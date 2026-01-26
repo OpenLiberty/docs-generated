@@ -213,6 +213,29 @@ Min: +0+
 
 |+When this attribute is set to true, it prevents potentially sensitive information from being exposed in log and trace files. The default value is false. Avoid trouble: Use the com.ibm.ws.logging.suppress.sensitive.trace property, except in cases where you are trying to change the configuration dynamically after startup.+
 
+|+throttleMaxMessagesPerWindow+
+
+|int +
+Min: +0+
+
+|+1000+
+
+|+Specifies the maximum number of log messages permitted within a 5-minute period before throttling begins. When the limit is exceeded, additional messages are suppressed until the count is within the threshold. The default value is 1000. You can specify a positive integer or set the value to 0 to disable throttling.+
+
+|+throttleType+
+
+|* +message+
+* +messageID+
+
+
+|+messageID+
+
+|+Tracks log entries that match either the messageID or the full message content. Specify a string to configure this attribute. The only valid values are message and messageID.+ +
+*+message+* +
++Specifies throttling of log entries based on the message content.+ +
+*+messageID+* +
++Specifies throttling of log entries based on the messageID.+
+
 |+traceFileName+
 
 |string
