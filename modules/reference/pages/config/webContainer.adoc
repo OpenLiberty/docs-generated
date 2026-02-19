@@ -239,7 +239,7 @@
 
 |
 
-|+When this property is set to true, during startup, ServletContainerInitializer implementors that use the HandlesTypes annotation do not receive classes that are specified as HandlesTypes parameters.+
+|+When this property is set to true, during startup, ServletContainerInitializer implementors that use the HandlesTypes annotation do not receive classes that are specified as HandlesTypes parameters. In servlet-5.0 and later, the default value is true. In servlet-4.0 and earlier, the default value is false.+
 
 |+exposeWebInfOnDispatch+
 
