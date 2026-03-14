@@ -2543,7 +2543,7 @@ Max: +1+
 
 |
 
-|+JDBC driver property: serverName. This property overrides the serverName specified in the URL if one was configured.+
+|+JDBC driver property: serverName. This property previously defaulted to localhost, but that default was removed to support valid use cases where no serverName property is provided. Examples include when the DB2 driver uses type java.sql.Driver with a URL, or when a client catalog is used with the driverType property set to 2. In all other cases, if this property is unset, a default value of localhost is added programmatically. This property overrides the server name that is specified in the URL and in the client catalog if either was configured.+
 
 4+|*+Advanced Properties+*
 
@@ -6095,7 +6095,7 @@ Max: +32767+
 
 |
 
-|+JDBC driver property: databaseName. When the PostgreSQL driver uses type java.sql.Driver and a URL and this property are configured, the PostgreSQL driver ignores this property. When the PostgreSQL driver uses type javax.sql.DataSource, and a URL and this property are configured, the PostgreSQL driver ignores the databaseName property.+
+|+JDBC driver property: databaseName. When the PostgreSQL driver uses type java.sql.Driver, and both a URL and the databaseName property are configured, the PostgreSQL driver ignores the databaseName property. When the PostgreSQL driver uses type javax.sql.DataSource, and both a URL and the databaseName property are configured, the PostgreSQL driver ignores the database name that is embedded in the URL.+
 
 |+portNumber+
 
@@ -6103,7 +6103,7 @@ Max: +32767+
 
 |
 
-|+JDBC driver property: portNumber. When the PostgreSQL driver uses type java.sql.Driver and a URL and this property are configured, the PostgreSQL driver ignores this property. When the PostgreSQL driver uses type javax.sql.DataSource, and a URL and this property are configured, the PostgreSQL driver ignores the portNumber property.+
+|+JDBC driver property: portNumber. When the PostgreSQL driver uses type java.sql.Driver, and both a URL and the portNumber property are configured, the PostgreSQL driver ignores the portNumber property. When the PostgreSQL driver uses type javax.sql.DataSource, and both a URL and the portNumber property are configured, the PostgreSQL driver ignores the port number that is embedded in the URL.+
 
 |+serverName+
 
@@ -6111,7 +6111,7 @@ Max: +32767+
 
 |
 
-|+JDBC driver property: serverName. When the PostgreSQL driver uses type java.sql.Driver and a URL and this property are configured, the PostgreSQL driver ignores this property. When the PostgreSQL driver uses type javax.sql.DataSource, and a URL and this property are configured, the PostgreSQL driver ignores the serverName property.+
+|+JDBC driver property: serverName. When the PostgreSQL driver uses type java.sql.Driver, and both a URL and the serverName property are configured, the PostgreSQL driver ignores the serverName property. When the PostgreSQL driver uses type javax.sql.DataSource, and both a URL and the serverName property are configured, the PostgreSQL driver ignores the server name that is embedded in the URL.+
 
 4+|*+Advanced Properties+*
 
