@@ -1,0 +1,69 @@
+= Jakarta Data 1.0
+:linkcss: 
+:page-layout: feature
+:nofooter: 
+
+// tag::description[]
+Jakarta Data is a programming model for data access.You can use Jakarta Data to represent data with Java objects called entitiesand to define operations on data as methods of a repository interface.A Jakarta Data provider supplies the repository implementation to an application.The data-1.0 feature includes a built-in Jakarta Data provider for relationaldatabase access.
+
+// end::description[]
+
+include::./data/description.adoc[opts=optional]
+include::./data-1.0/description.adoc[opts=optional]
+
+// tag::enable[]
+== Enabling this feature
+To enable the Jakarta Data 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
+
+
+----
+<feature>data-1.0</feature>
+----
+// end::enable[]
+
+include::./data/examples.adoc[opts=optional]
+include::./data-1.0/examples.adoc[opts=optional]
+
+// tag::apis[]
+
+== Standard API packages provided by this feature
+* javadoc:jakarta.data[]
+* javadoc:jakarta.data.exceptions[]
+* javadoc:jakarta.data.metamodel[]
+* javadoc:jakarta.data.metamodel.impl[]
+* javadoc:jakarta.data.page[]
+* javadoc:jakarta.data.page.impl[]
+* javadoc:jakarta.data.repository[]
+* javadoc:jakarta.data.spi[]
+// end::apis[]
+// tag::requirements[]
+
+== Features that this feature enables
+* feature:cdi-4.1[]
+// end::requirements[]
+// tag::java-versions[]
+
+== Supported Java versions
+
+* JavaSE-17.0
+* JavaSE-21.0
+* JavaSE-25.0
+// end::java-versions[]
+// tag::dependencies[]
+
+== Features that enable this feature
+* feature:webProfile-11.0[]
+// end::dependencies[]
+// tag::feature-require[]
+
+== Developing a feature that depends on this feature
+If you are developing a feature that depends on this feature, include the following item in the `Subsystem-Content` header in your feature manifest file.
+
+
+[source,]
+----
+io.openliberty.data-1.0; type="osgi.subsystem.feature"
+----
+// end::feature-require[]
+// tag::spi[]
+// end::spi[]

@@ -75,6 +75,7 @@ include::./mpJwt-2.1/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:cdi-4.0[]
+* feature:cdi-4.1[]
 * feature:jsonp-2.1[]
 * feature:jwt-1.0[]
 * feature:mpConfig-3.0[]
