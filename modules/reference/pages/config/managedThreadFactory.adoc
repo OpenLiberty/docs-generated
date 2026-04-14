@@ -60,14 +60,6 @@ Max: +10+
 |
 
 |+Maximum priority for threads created by the managed thread factory.+
-
-|+virtual+
-
-|boolean
-
-|+false+
-
-|+Determines whether the ManagedThreadFactory creates virtual threads. Java 21 or higher is a prerequisite of configuring this value to true.+
 |===
 [#+contextService+]*contextService*
 

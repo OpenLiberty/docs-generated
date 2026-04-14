@@ -64,7 +64,6 @@ include::./grpc-1.0/examples.adoc[opts=optional]
 * feature:servlet-4.0[]
 * feature:servlet-5.0[]
 * feature:servlet-6.0[]
-* feature:servlet-6.1[]
 // end::requirements[]
 // tag::java-versions[]
 

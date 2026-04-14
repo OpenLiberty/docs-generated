@@ -65,7 +65,6 @@ include::./xmlBinding-4.0/examples.adoc[opts=optional]
 * feature:jakartaee-10.0[]
 * feature:jakartaeeClient-10.0[]
 * feature:xmlWS-4.0[]
-* feature:xmlWSClient-4.0[]
 // end::dependencies[]
 // tag::feature-require[]
 

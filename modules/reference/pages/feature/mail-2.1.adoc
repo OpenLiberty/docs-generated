@@ -66,9 +66,7 @@ include::./mail-2.1/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:jakartaee-10.0[]
-* feature:jakartaee-11.0[]
 * feature:jakartaeeClient-10.0[]
-* feature:jakartaeeClient-11.0[]
 // end::dependencies[]
 // tag::feature-require[]
 

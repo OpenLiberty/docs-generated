@@ -28,14 +28,6 @@
 
 |+Specifies whether to fail over to basic authentication when certificate authentication fails. The equivalent custom property in the full application server profile is com.ibm.wsspi.security.web.failOverToBasicAuth.+
 
-|+allowInMemoryIdentityStores+
-
-|boolean
-
-|+false+
-
-|+When explicitly set to true and an in-memory identity store is defined within an application, the in-memory identity store is used during the authentication process.+
-
 |+allowLogoutPageRedirectToAnyHost+
 
 |boolean

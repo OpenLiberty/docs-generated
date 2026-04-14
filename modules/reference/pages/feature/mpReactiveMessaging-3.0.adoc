@@ -42,7 +42,6 @@ include::./mpReactiveMessaging-3.0/examples.adoc[opts=optional]
 == Features that this feature enables
 * feature:cdi-3.0[]
 * feature:cdi-4.0[]
-* feature:cdi-4.1[]
 * feature:mpConfig-3.0[]
 * feature:mpConfig-3.1[]
 * feature:mpReactiveStreams-3.0[]

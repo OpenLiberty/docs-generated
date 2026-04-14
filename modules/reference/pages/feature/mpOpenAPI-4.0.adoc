@@ -65,7 +65,6 @@ include::./mpOpenAPI-4.0/examples.adoc[opts=optional]
 == Features that this feature enables
 * feature:mpConfig-3.1[]
 * feature:restfulWS-3.1[]
-* feature:restfulWS-4.0[]
 // end::requirements[]
 // tag::java-versions[]
 
