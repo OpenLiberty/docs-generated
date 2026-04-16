@@ -9,6 +9,41 @@
 |===
 |Name|Type|Default|Description
 
+|+allowedSignatureAlgorithms+
+
+|* +ES256+
+* +ES384+
+* +ES512+
+* +HS256+
+* +HS384+
+* +HS512+
+* +RS256+
+* +RS384+
+* +RS512+
+
+
+|+RS256+
+
+|+Specifies a list of signature algorithms that are allowed when the software is validating tokens. The signature algorithm from the JWT header must be in this allowed list for the token to be accepted. This attribute applies only when the signatureAlgorithm attribute is set to FROM_HEADER.+ +
+*+ES256+* +
++%tokenSignAlgorithm.ES256+ +
+*+ES384+* +
++%tokenSignAlgorithm.ES384+ +
+*+ES512+* +
++%tokenSignAlgorithm.ES512+ +
+*+HS256+* +
++%tokenSignAlgorithm.HS256+ +
+*+HS384+* +
++%tokenSignAlgorithm.HS384+ +
+*+HS512+* +
++%tokenSignAlgorithm.HS512+ +
+*+RS256+* +
++%tokenSignAlgorithm.RS256+ +
+*+RS384+* +
++%tokenSignAlgorithm.RS384+ +
+*+RS512+* +
++%tokenSignAlgorithm.RS512+
+
 |+authFilterRef+
 
 |A reference to top level authFilter element (string).

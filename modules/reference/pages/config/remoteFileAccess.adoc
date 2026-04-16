@@ -9,13 +9,29 @@
 |===
 |Name|Type|Default|Description
 
+|+blockDir+
+
+|Path to a directory
+
+|
+
+|+A directory that clients are not allowed to read from or write to, regardless of readDir or writeDir configuration. There can be multiple blockDir elements, and each represents a single directory that may refer to variables or absolute paths. Default is ${server.output.dir}/resources/security.+
+
+|+disableBlockList+
+
+|boolean
+
+|+false+
+
+|+A boolean flag to disable the block list. Default is false. If set to true then any blockDir config will be ignored.+
+
 |+readDir+
 
 |Path to a directory
 
 |
 
-|+A directory that remote clients are allowed to read from. There can be multiple readDir elements, and each represents a single directory that may refer to variables or absolute paths.  Default is ${wlp.install.dir}, ${wlp.user.dir} and ${server.output.dir}+
+|+A directory that remote clients are allowed to read from. There can be multiple readDir elements, and each represents a single directory that may refer to variables or absolute paths. Default is ${wlp.install.dir}, ${wlp.user.dir} and ${server.output.dir}+
 
 |+writeDir+
 

@@ -66,6 +66,7 @@ include::./connectors-2.1/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
+* JavaSE-26.0
 // end::java-versions[]
 // tag::platform-versions[]
 
