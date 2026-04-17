@@ -177,6 +177,14 @@
 
 |+Web container will re-throw errors allowing interested resources to process them. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.dispatcherRethrowser.+
 
+|+displayCustomizedExceptionText+
+
+|string
+
+|
+
+|+Specifies the customized text that is displayed when certain server exceptions occur, such as "SRVE0232E: Internal Server Error" or "SRVE0218E: Forbidden: Web Security Exception". If this property is not set, the default system-generated error message is used.+
+
 |+doNotServeByClassName+
 
 |string

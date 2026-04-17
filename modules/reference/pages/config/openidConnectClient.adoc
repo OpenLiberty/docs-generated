@@ -41,6 +41,41 @@
 
 |+Specifies whether a custom cache key is used to store users in an authentication cache. If this property is set to true and the cache key for a user is not found in the authentication cache, the user will be required to log in again. Set this property to false when you use the jwtSso feature to allow the security subject to be constructed directly from the jwtSso cookie. Set this property to false when you do not use the jwtSso feature to allow the security subject to be constructed directly from the user registry. If the security subject is reconstructed from the user registry, there will be no SSO components in the subject. If your LTPA cookie is used by more than one server, consider setting this property to false. If your application always requires the SSO components to be present in the subject, you must either set this property to true or use the jwtSso feature.+
 
+|+allowedSignatureAlgorithms+
+
+|* +ES256+
+* +ES384+
+* +ES512+
+* +HS256+
+* +HS384+
+* +HS512+
+* +RS256+
+* +RS384+
+* +RS512+
+
+
+|+RS256+
+
+|+Specifies a list of signature algorithms that are allowed when the software is validating ID tokens. The signature algorithm from the JWT header must be in this allowed list for the token to be accepted. This attribute applies only when the signatureAlgorithm attribute is set to FROM_HEADER.+ +
+*+ES256+* +
++Use the ES256 signature algorithm to sign and verify tokens+ +
+*+ES384+* +
++Use the ES384 signature algorithm to sign and verify tokens+ +
+*+ES512+* +
++Use the ES512 signature algorithm to sign and verify tokens+ +
+*+HS256+* +
++Use the HS256 signature algorithm to sign and verify tokens+ +
+*+HS384+* +
++Use the HS384 signature algorithm to sign and verify tokens+ +
+*+HS512+* +
++Use the HS512 signature algorithm to sign and verify tokens+ +
+*+RS256+* +
++Use the RS256 signature algorithm to sign and verify tokens+ +
+*+RS384+* +
++Use the RS384 signature algorithm to sign and verify tokens+ +
+*+RS512+* +
++Use the RS512 signature algorithm to sign and verify tokens+
+
 |+audiences+
 
 |string
@@ -430,6 +465,7 @@ Min: +0+
 |* +ES256+
 * +ES384+
 * +ES512+
+* +FROM_HEADER+
 * +HS256+
 * +HS384+
 * +HS512+
@@ -448,6 +484,8 @@ Min: +0+
 +Use the ES384 signature algorithm to sign and verify tokens+ +
 *+ES512+* +
 +Use the ES512 signature algorithm to sign and verify tokens+ +
+*+FROM_HEADER+* +
++Use the signature algorithm from the JWT header to sign and verify tokens.+ +
 *+HS256+* +
 +Use the HS256 signature algorithm to sign and verify tokens+ +
 *+HS384+* +
