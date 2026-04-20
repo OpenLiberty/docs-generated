@@ -37,9 +37,9 @@
 
 |Reversably encoded password (string)
 
-|+{xor}CDo9Hgw=+
+|
 
-|+Password for the LTPA primary keys. The best practice is to encrypt the password by using the securityUtility tool.+
+|+Password for the LTPA primary keys. If no value is specified, the 'ltpa_keys_password' or 'keystore_password' value from the ${server.config.dir}/server.env file is used if they are set. If both are set, the 'ltpa_keys_password' takes precedence over the 'keystore_password'. A password must be specified in this attribute, or in the 'ltpa_keys_password' or 'keystore_password' environment variables. The best practice is to encrypt the password by using the securityUtility tool.+
 
 |+monitorInterval+
 

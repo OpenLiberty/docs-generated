@@ -31,7 +31,7 @@
 
 |
 
-|+Disables the Common Name Check. Valid values are true or false. It functions identically to the com.ibm.ws.jaxrs.client.disableCNCheck programmatic property. As of Liberty 24.0.0.9 APAR PH58796, this only disables JAX-RS layer verification. To fully disable hostname verification, configure both: disableCNCheck=âtrueâ on webTarget; and either verifyHostname=âfalseâ or skipHostnameVerificationForHosts=âhostNameListâ in the ssl configuration that is referenced by sslConfig. For more information, see the sslConfig parameter and IBM Doc 7163230.+
+|+Disables the Common Name Check. Valid values are true or false. It functions identically to the com.ibm.ws.jaxrs.client.disableCNCheck programmatic property. As of Liberty 24.0.0.9 APAR PH58796, this only disables JAX-RS layer verification. To fully disable hostname verification, configure both: disableCNCheck="true" on webTarget, and either verifyHostname="false" or skipHostnameVerificationForHosts="hostNameList" in the ssl configuration that is referenced by sslConfig. For more information, see the sslConfig parameter and IBM Doc 7163230.+
 
 |+id+
 
