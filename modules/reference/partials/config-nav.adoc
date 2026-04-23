@@ -43,6 +43,7 @@
   ** xref:config/cors.adoc[cors]
   ** xref:config/couchdb.adoc[couchdb]
   ** xref:config/customLdapFilterProperties.adoc[customLdapFilterProperties]
+  ** xref:config/data.adoc[data]
   ** xref:config/dataSource.adoc[dataSource]
   ** xref:config/databaseStore.adoc[databaseStore]
   ** xref:config/distributedMap.adoc[distributedMap]

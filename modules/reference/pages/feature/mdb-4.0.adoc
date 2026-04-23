@@ -133,6 +133,7 @@ include::./mdb-4.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:enterpriseBeans-4.0[]
+* feature:jakartaee-11.0[]
 // end::dependencies[]
 // tag::feature-require[]
 

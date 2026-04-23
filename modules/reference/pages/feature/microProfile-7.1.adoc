@@ -30,6 +30,7 @@ include::./microProfile-7.1/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:cdi-4.0[]
+* feature:cdi-4.1[]
 * feature:jsonb-3.0[]
 * feature:jsonp-2.1[]
 * feature:mpConfig-3.1[]
@@ -40,7 +41,9 @@ include::./microProfile-7.1/examples.adoc[opts=optional]
 * feature:mpRestClient-4.0[]
 * feature:mpTelemetry-2.1[]
 * feature:restfulWS-3.1[]
+* feature:restfulWS-4.0[]
 * feature:restfulWSClient-3.1[]
+* feature:restfulWSClient-4.0[]
 // end::requirements[]
 // tag::java-versions[]
 
