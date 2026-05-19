@@ -113,6 +113,14 @@ Min: +1+
 |
 
 |+Specifies the maximum amount of time that may elapse between the task submission and the task start. By default, tasks do not time out. If both a maximum wait for enqueue and a start timeout are enabled, configure the start timeout to be larger than the maximum wait for enqueue. When the start timeout is updated while in use, the new start timeout value applies to tasks submitted after the update occurs. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+
+|+virtual+
+
+|boolean
+
+|+false+
+
+|+Requests the use of virtual threads for tasks that do not run inline. Java 21 or higher is a prerequisite of configuring this value to true.+
 |===
 [#+contextService+]*contextService*
 
@@ -384,4 +392,12 @@ Min: +1+
 |
 
 |+Specifies the maximum amount of time that may elapse between the task submission and the task start. By default, tasks do not time out. If both a maximum wait for enqueue and a start timeout are enabled, configure the start timeout to be larger than the maximum wait for enqueue. When the start timeout is updated while in use, the new start timeout value applies to tasks submitted after the update occurs. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+
+|+virtual+
+
+|boolean
+
+|+false+
+
+|+Requests the use of virtual threads for tasks that do not run inline. Java 21 or higher is a prerequisite of configuring this value to true.+
 |===

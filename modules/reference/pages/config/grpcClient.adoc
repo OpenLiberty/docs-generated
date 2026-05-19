@@ -163,7 +163,7 @@ Min: +1+
 
 |
 
-|+Specifies a custom list of ciphers. Separate each cipher in the list with a space. The supported cipher will depend on the underlying JRE used.  Please check the JRE for valid ciphers.+
+|+Two mutually exclusive modes: (1) Specify a custom list of ciphers separated by spaces, or (2) Specify filter criteria to add (pass:[+]) or remove (-) cipher suites from the effective JDK cipher suites. In filter mode, prefix cipher suite names with pass:[+] to add them or - to remove them. You can use the * wildcard with - to remove multiple cipher suites that share a prefix (for example, -TLS_RSA_*); place the wildcard only at the end of the list item. Do not use the wildcard when adding cipher suites. The underlying JRE determines which cipher suites are supported.+
 
 |+enforceCipherOrder+
 
@@ -180,26 +180,6 @@ Min: +1+
 |
 
 |+A keystore containing key entries for the SSL repertoire. This attribute is required.+
-
-|+securityLevel+
-
-|* +CUSTOM+
-* +HIGH+
-* +LOW+
-* +MEDIUM+
-
-
-|+HIGH+
-
-|+Specifies the cipher suite group used by the SSL handshake.  HIGH are 3DES and 128 bit and higher ciphers, MEDIUM are DES and 40 bit ciphers, LOW are ciphers without encryption.  If the enabledCiphers attribute is used the securityLevel list is ignored.+ +
-*+CUSTOM+* +
-+Custom list of cipher suites+ +
-*+HIGH+* +
-+Cipher suites 3DES and 128 bit and higher+ +
-*+LOW+* +
-+Cipher suites without encryption+ +
-*+MEDIUM+* +
-+Cipher suites DES and 40 bit+
 
 |+serverKeyAlias+
 
