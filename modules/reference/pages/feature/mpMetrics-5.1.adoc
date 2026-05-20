@@ -95,6 +95,7 @@ include::./mpMetrics-5.1/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:cdi-4.0[]
+* feature:cdi-4.1[]
 * feature:distributedMap-1.0[]
 * feature:json-1.0[]
 * feature:monitor-1.0[]

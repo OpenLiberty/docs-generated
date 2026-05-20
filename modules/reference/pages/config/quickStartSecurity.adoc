@@ -3,7 +3,7 @@
 :page-layout: config
 :nofooter: 
 
-+Simple administrative security configuration.+
++Simple administrative security configuration. This configuration is not recommended for use in a production environment.+
 
 [cols="a,a,a,a",width="100%"]
 |===

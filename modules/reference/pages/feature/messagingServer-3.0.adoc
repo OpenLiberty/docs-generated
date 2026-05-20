@@ -66,6 +66,7 @@ include::./messagingServer-3.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:jakartaee-10.0[]
+* feature:jakartaee-11.0[]
 * feature:jakartaee-9.1[]
 * feature:messagingSecurity-3.0[]
 // end::dependencies[]

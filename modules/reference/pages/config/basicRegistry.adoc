@@ -3,7 +3,7 @@
 :page-layout: config
 :nofooter: 
 
-+A simple XML-based user registry.+
++A simple XML-based user registry. This registry is not recommended for use in a production environment.+
 
 [cols="a,a,a,a",width="100%"]
 |===
