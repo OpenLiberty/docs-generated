@@ -2,11 +2,142 @@
 
 The following tables list the currently available features and corresponding versionless features for each Jakarta EE platform version. You can declare up to 2 platform elements, one for MicroProfile and another for either Jakarta EE or Java EE.
 
+- <<11-0, Jakarta EE 11.0>>
 - <<10-0, Jakarta EE 10.0>>
 - <<9-1, Jakarta EE 9.1>>
 - <<8-0, Jakarta EE 8.0>>
 
 For more information, see xref:reference:feature/versionless-features.adoc[Simplify feature selection with versionless features].
+
+[#11-0]
+== Jakarta EE 11.0
+
+Platform short name: `jakartaee-11.0`
+ 
+.jakartaee-11.0 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|Java Database Connectivity 4.3
+|feature:jdbc-4.3[]
+|`jdbc`
+|Jakarta Servlet 6.1
+|feature:servlet-6.1[]
+|`servlet`
+|Jakarta Authentication 3.1
+|feature:appAuthentication-3.1[]
+|`appAuthentication`
+|Jakarta Authorization 3.0
+|feature:appAuthorization-3.0[]
+|`appAuthorization`
+|Jakarta Application Client Support for Server 2.0
+|feature:appClientSupport-2.0[]
+|`appClientSupport`
+|Application Security 6.0 (Jakarta Security 4.0)
+|feature:appSecurity-6.0[]
+|`appSecurity`
+|Jakarta Batch 2.1
+|feature:batch-2.1[]
+|`batch`
+|Jakarta Validation 3.1
+|feature:validation-3.1[]
+|`validation`
+|Jakarta Contexts and Dependency Injection 4.1
+|feature:cdi-4.1[]
+|`cdi`
+|Jakarta Concurrency 3.1
+|feature:concurrent-3.1[]
+|`concurrent`
+|Jakarta Connectors 2.1
+|feature:connectors-2.1[]
+|`connectors`
+|Jakarta Data 1.0
+|feature:data-1.0[]
+|`data`
+|Jakarta Data 1.0 Container
+|feature:dataContainer-1.0[]
+|`dataContainer`
+|Jakarta Enterprise Beans 4.0
+|feature:enterpriseBeans-4.0[]
+|`enterpriseBeans`
+|Jakarta Enterprise Beans 4.0 Home Interfaces
+|feature:enterpriseBeansHome-4.0[]
+|`enterpriseBeansHome`
+|Jakarta Enterprise Beans 4.0 Lite
+|feature:enterpriseBeansLite-4.0[]
+|`enterpriseBeansLite`
+|Jakarta Enterprise Beans 4.0 Persistent Timers
+|feature:enterpriseBeansPersistentTimer-4.0[]
+|`enterpriseBeansPersistentTimer`
+|Jakarta Enterprise Beans 4.0 Remote
+|feature:enterpriseBeansRemote-4.0[]
+|`enterpriseBeansRemote`
+|Jakarta Expression Language 6.0
+|feature:expressionLanguage-6.0[]
+|`expressionLanguage`
+|Jakarta Faces 4.1
+|feature:faces-4.1[]
+|`faces`
+|Jakarta Faces 4.1 Container
+|feature:facesContainer-4.1[]
+|`facesContainer`
+|Jakarta JSON Binding 3.0
+|feature:jsonb-3.0[]
+|`jsonb`
+|Jakarta JSON Binding 3.0 Container
+|feature:jsonbContainer-3.0[]
+|`jsonbContainer`
+|Jakarta JSON Processing 2.1
+|feature:jsonp-2.1[]
+|`jsonp`
+|Jakarta JSON Processing 2.1 Container
+|feature:jsonpContainer-2.1[]
+|`jsonpContainer`
+|Jakarta Mail 2.1
+|feature:mail-2.1[]
+|`mail`
+|Jakarta Enterprise Beans 4.0 Message-Driven Beans
+|feature:mdb-4.0[]
+|`mdb`
+|Jakarta Messaging 3.1
+|feature:messaging-3.1[]
+|`messaging`
+|Messaging Server 3.0 Client
+|feature:messagingClient-3.0[]
+|`messagingClient`
+|Messaging Server 3.0 Security
+|feature:messagingSecurity-3.0[]
+|`messagingSecurity`
+|Messaging Server 3.0
+|feature:messagingServer-3.0[]
+|`messagingServer`
+|Jakarta Server Pages 4.0
+|feature:pages-4.0[]
+|`pages`
+|Jakarta Persistence 3.2
+|feature:persistence-3.2[]
+|`persistence`
+|Jakarta Persistence 3.2 Container
+|feature:persistenceContainer-3.2[]
+|`persistenceContainer`
+|Jakarta RESTful Web Services 4.0
+|feature:restfulWS-4.0[]
+|`restfulWS`
+|Jakarta RESTful Web Services 4.0 Client
+|feature:restfulWSClient-4.0[]
+|`restfulWSClient`
+|Jakarta WebSocket 2.2
+|feature:websocket-2.2[]
+|`websocket`
+|Jakarta XML Binding 4.0
+|feature:xmlBinding-4.0[]
+|`xmlBinding`
+|Jakarta XML Web Services 4.0
+|feature:xmlWS-4.0[]
+|`xmlWS`
+|===
 
 [#10-0]
 == Jakarta EE 10.0
