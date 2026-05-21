@@ -115,6 +115,7 @@ include::./enterpriseBeansRemote-4.0/examples.adoc[opts=optional]
 
 * jakartaee-9.1
 * jakartaee-10.0
+* jakartaee-11.0
 // end::platform-versions[]
 // tag::dependencies[]
 
