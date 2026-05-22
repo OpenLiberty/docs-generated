@@ -88,12 +88,6 @@ include::./appSecurity-6.0/examples.adoc[opts=optional]
 * JavaSE-25.0
 * JavaSE-26.0
 // end::java-versions[]
-// tag::platform-versions[]
-
-== Platform Versions
-
-* jakartaee-11.0
-// end::platform-versions[]
 // tag::dependencies[]
 
 == Features that enable this feature
