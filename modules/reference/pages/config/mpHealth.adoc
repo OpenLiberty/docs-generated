@@ -23,5 +23,5 @@
 
 |
 
-|+The value that you specify sets the interval at which the health checks are queried until an UP status is resolved and the health check file is created. The value is a number followed by an optional time unit of ms for milliseconds or s for seconds. If no time unit is specified for a value, the value is in milliseconds by default. If no value is specified, the default value is 100 ms.+
+|+The specified value sets the interval at which health checks are queried until an UP status is resolved and the health check file is created. Specify the value as a number, optionally followed by a time unit: ms (milliseconds) or s (seconds). If you omit the time unit, the value defaults to milliseconds. If you omit the value entirely, the default interval is 100 ms.+
 |===
