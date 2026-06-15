@@ -4,7 +4,7 @@
 :nofooter: 
 
 // tag::description[]
-Jakarta Data is a programming model for data access.You can use Jakarta Data to represent data with Java objects called entitiesand to define operations on data as methods of a repository interface.A Jakarta Data provider supplies the repository implementation to an application.The data-1.0 feature includes a built-in Jakarta Data provider for relationaldatabase access.
+Jakarta Data is a programming model for data access. You can use Jakarta Data to represent data with Java objects called entities and to define operations on data as methods of a repository interface. A Jakarta Data provider supplies the repository implementation to an application. The data-1.0 feature includes a built-in Jakarta Data provider for relational database access.
 
 // end::description[]
 
@@ -50,6 +50,12 @@ include::./data-1.0/examples.adoc[opts=optional]
 * JavaSE-25.0
 * JavaSE-26.0
 // end::java-versions[]
+// tag::platform-versions[]
+
+== Platform Versions
+
+* jakartaee-11.0
+// end::platform-versions[]
 // tag::dependencies[]
 
 == Features that enable this feature

@@ -97,6 +97,22 @@
 
 |+A fully qualified path to to the web server plug-in log file. Directory component must already exist.  For Apache-based web servers, a path that begins with a pipe character is interpreted as an external piped logger.  If specified, the path overrides logDirLocation.+
 
+|+outboundBindStrict+
+
+|boolean
+
+|+false+
+
+|+When this parameter is set to true, the web server plug-in strictly binds outbound connections to the interfaces that are specified in the outbound interfaces list. When this parameter is set to false (the default), the plug-in uses the specified interfaces as preferences, but can fall back to other interfaces if necessary.+
+
+|+outboundInterfacesList+
+
+|string
+
+|
+
+|+A comma-separated list of IP addresses or interface names to use for outbound connections from the web server plug-in to the application server.+
+
 |+pluginInstallRoot+
 
 |string
