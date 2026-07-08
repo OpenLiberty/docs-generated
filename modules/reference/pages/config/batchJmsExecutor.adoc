@@ -199,7 +199,7 @@ Min: +0+
 
 |+javax.jms.Queue+
 
-|+The type of the destination, which is javax.jms.Queue or javax.jms.Topic.+
+|+The type of the destination, which is javax.jms.Queue or javax.jms.Topic, and Jakarta EE levels use jakarta instead of javax+
 
 |+maxBatchSize+
 
