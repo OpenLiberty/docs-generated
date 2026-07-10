@@ -251,7 +251,7 @@
 
 |boolean
 
-|+false+
+|+true+
 
 |+Specifies whether to track LTPA single signon tokens that are logged out on a server so that it can not be reused on the same server.+
 

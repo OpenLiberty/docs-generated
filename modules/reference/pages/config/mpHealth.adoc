@@ -17,6 +17,14 @@
 
 |+The value that you specify sets the interval at which the health checks are queried for the file-based health checks. The value is a number followed by an optional time unit of ms for milliseconds or s for seconds. If no time unit is specified, the value is in seconds by default. If the value is 0, 0s, 0ms or is empty, then the file-based health check function is disabled.+
 
+|+enableEndpoints+
+
+|boolean
+
+|+true+
+
+|+Controls whether health check endpoints are enabled. This setting takes effect only when file-based health checks are enabled. The default value is true. Set this value to false to disable the endpoints if file-based health checks are enabled.+
+
 |+startupCheckInterval+
 
 |string

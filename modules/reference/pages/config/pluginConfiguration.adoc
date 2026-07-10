@@ -129,6 +129,14 @@
 
 |+Identifies the maximum amount of time that the web server plugin waits to send a request or receive a response from the application server. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
+|+serverIOTimeoutMarksDown+
+
+|boolean
+
+|+false+
+
+|+When set to true, the application server is marked as down immediately after the ServerIOTimeout is exceeded. The default value is false.+
+
 |+serverIOTimeoutRetry+
 
 |int +
@@ -748,6 +756,15 @@ Max: +2147483647+
 |+65535+
 
 |+Specifies the initial window size in octets for HTTP/2 stream-level flow control. This value can be configured to any size within the range of 1 to 2,147,483,647 octets, inclusive. If no value is specified, the default value is 65,535 octets.+
+
+|+websocketBufferSize+
+
+|int +
+Min: +-1+
+
+|+65536+
+
+|+Specifies the default buffer size maximum in bytes for websocket messages. This value applies to both binary and text messages. A value of -1 means unlimited.+
 
 |+writeTimeout+
 
