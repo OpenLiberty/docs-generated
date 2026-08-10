@@ -147,6 +147,15 @@ Max: +500+
 
 |+Specifies whether the server waits until half of the HTTP/2 connection-level and stream-level windows are exhausted before it sends WINDOW_UPDATE frames. Valid values are true or false. If no value is specified, the default value is false.+
 
+|+lowWindowLimit+
+
+|int +
+Min: +0+
+
+|+16384+
+
+|+Specifies the window size threshold in bytes below which a stream is considered to have a low window. Streams with window sizes below this limit are tracked and counted against the maximum low window streams limit.+
+
 |+maxConcurrentStreams+
 
 |int
@@ -182,6 +191,24 @@ Min: +-1+
 |+-1+
 
 |+Maximum number of persistent requests that are allowed on a single HTTP connection if persistent connections are enabled. A value of -1 means unlimited. This option supports low latency or high throughput applications, and SSL connections for use in situations where building up a new connection can be costly.+
+
+|+maxLowWindowStreams+
+
+|int +
+Min: +0+
+
+|+20+
+
+|+Specifies the maximum number of streams that can have a low window size at the same time. If this value is exceeded, the connection is closed. Set this parameter to 0 to disable the check.+
+
+|+maxQueuedBytes+
+
+|long +
+Min: +0+
+
+|+2097152+
+
+|+Specifies the maximum number of bytes that can be queued across all streams for a connection. If this value is exceeded, the connection is closed. Set this parameter to 0 to disable the check.+
 
 |+maxResetFrames+
 
