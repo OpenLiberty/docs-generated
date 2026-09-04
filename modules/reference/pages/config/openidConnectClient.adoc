@@ -982,6 +982,220 @@ Required
 
 |+Specifies value of the additional parameter.+
 |===
+[#+protectedResourceMetadata+]*protectedResourceMetadata*
+
++Specifies the configuration for serving OAuth 2.0 protected resource metadata (RFC 9728). When configured, the OpenID Connect client can provide metadata to direct clients on where to authenticate for protected resources.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+advertisedScopes+
+
+|string
+
+|
+
+|+Specifies a comma-separated list of scopes to publish in the protected resource metadata. Clients can use the list to discover which scopes are available for this protected resource.+
+
+|+jwtBuilderRef+
+
+|A reference to top level jwtBuilder element (string).
+
+|
+
+|+Specifies a reference to a JSON Web Token (JWT) builder configuration. Use the builder to create JSON web tokens for the protected resource metadata endpoint.+
+|===
+[#+protectedResourceMetadata/jwtBuilder+]*protectedResourceMetadata > jwtBuilder*
+
++Specifies a reference to a JSON Web Token (JWT) builder configuration. Use the builder to create JSON web tokens for the protected resource metadata endpoint.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+audiences+
+
+|string
+
+|
+
+|+The trusted audience list to be included in the aud claim in the JSON web token.+
+
+|+claims+
+
+|string
+
+|
+
+|+Specify a comma separated list of claims to include in the token. These claims must be existing user attributes that are defined for the subject of the JWT in the user registry.+
+
+|+contentEncryptionAlgorithm+
+
+|* +A256GCM+
+
+
+|
+
+|+Specifies the encryption algorithm that is used to encrypt the JWT plaintext to produce the JWE ciphertext.+ +
+*+A256GCM+* +
++Use the AES GCM algorithm with a 256-bit key to encrypt the JWT plaintext of a JWE.+
+
+|+expiresInSeconds+
+
+|A period of time with second precision
+
+|+-1+
+
+|+Indicates the token expiration time in seconds. Takes precedence over expiry. When this attribute is set to a negative number, the value of the expiry attribute is used. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+
+|+expiry+
+
+|A period of time with hour precision
+
+|+2h+
+
+|+Indicates the token expiration time in hours. ExpiresInSeconds takes precedence if present. Specify a positive integer followed by the unit of time, which can be hours (h). For example, specify 12 hours as 12h.+
+
+|+id+
+
+|string
+
+|+defaultJWT+
+
+|+This ID is used to identify the JWT builder. If an ID value is not specified, the builder is not processed. The ID must be a URL-safe string. The ID is used as part of the issuer value if the issuer configuration attribute is not specified. The JwtBuilder API uses this ID to determine which builder configuration to use to construct JWTs.+
+
+|+issuer+
+
+|string
+
+|
+
+|+An Issuer is a case-sensitive URL using the HTTP or HTTPS scheme that contains scheme, host, and optionally port number and path components.+
+
+|+jti+
+
+|boolean
+
+|+false+
+
+|+Indicates whether to generate a unique id for the token.+
+
+|+jwkEnabled+
+
+|boolean
+
+|+false+
+
+|+Indicates whether to use JWK to sign the token. When JWK is enabled, the JWT builder dynamically generates key pairs and signs the JWT token with the private key. To validate the signature, the JWT consumer can retrieve the key from the JWK API, which has the format https://&lt;host_name&gt;:&lt;ssl_port&gt;/jwt/ibm/api/&lt;jwtBuilder_configuration_id&gt;/jwk. When this attribute is set to true, the value for the keyAlias attribute is ignored.+
+
+|+keyAlias+
+
+|string
+
+|
+
+|+A key alias name that is used to locate the private key for signing the token with an asymmetric algorithm. When the jwkEnabled attribute is set to true, the value for this attribute is ignored.+
+
+|+keyManagementKeyAlgorithm+
+
+|* +ECDH-ES+
+* +RSA-OAEP+
+
+
+|
+
+|+Specifies the key management algorithm that is used to encrypt or derive the Content Encryption Key of a JWE.+ +
+*+ECDH-ES+* +
++Use the ECDH-ES algorithm to derive the Content Encryption Key of a JWE.+ +
+*+RSA-OAEP+* +
++Use the RSAES OAEP algorithm to encrypt the Content Encryption Key of a JWE.+
+
+|+keyManagementKeyAlias+
+
+|string
+
+|
+
+|+Public key alias of the key management key that is used to encrypt the Content Encryption Key of a JWE.+
+
+|+keyStoreRef+
+
+|A reference to top level keyStore element (string).
+
+|
+
+|+A keystore containing the private key necessary for signing the token with an asymmetric algorithm.+
+
+|+nbfOffset+
+
+|A period of time with second precision
+
+|+-1+
+
+|+Identifies the time when JWT is accepted for processing. The value must be a NumericDate object. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+
+|+scope+
+
+|string
+
+|
+
+|+Specify a white space separated list of OAuth scopes.+
+
+|+sharedKey+
+
+|Reversably encoded password (string)
+
+|
+
+|+Specifies the string that will be used to generate the shared keys. The value can be stored in clear text or in the more secure encoded form. Use the securityUtility tool with the encode option to encode the shared key.+
+
+|+signatureAlgorithm+
+
+|* +ES256+
+* +ES384+
+* +ES512+
+* +HS256+
+* +HS384+
+* +HS512+
+* +RS256+
+* +RS384+
+* +RS512+
+
+
+|+RS256+
+
+|+Specifies the signature algorithm that will be used to sign the JWT token.+ +
+*+ES256+* +
++Use the ES256 signature algorithm to sign and verify tokens.+ +
+*+ES384+* +
++Use the ES384 signature algorithm to sign and verify tokens.+ +
+*+ES512+* +
++Use the ES512 signature algorithm to sign and verify tokens.+ +
+*+HS256+* +
++Use the HS256 signature algorithm to sign and verify tokens.+ +
+*+HS384+* +
++Use the HS384 signature algorithm to sign and verify tokens.+ +
+*+HS512+* +
++Use the HS512 signature algorithm to sign and verify tokens.+ +
+*+RS256+* +
++Use the RS256 signature algorithm to sign and verify tokens.+ +
+*+RS384+* +
++Use the RS384 signature algorithm to sign and verify tokens.+ +
+*+RS512+* +
++Use the RS512 signature algorithm to sign and verify tokens.+
+
+|+trustStoreRef+
+
+|A reference to top level keyStore element (string).
+
+|
+
+|+A keystore that contains the key management key that is used to encrypt or derive the Content Encryption Key of a JWE.+
+|===
 [#+tokenParameter+]*tokenParameter*
 
 +Specifies custom parameters to send to token endpoint of the OpenID Connect provider.+

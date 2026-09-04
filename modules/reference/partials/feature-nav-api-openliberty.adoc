@@ -248,6 +248,10 @@
     *** xref:javadoc/api/mpMetrics-5.1.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
     *** xref:javadoc/api/mpMetrics-5.1.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
     *** xref:javadoc/api/mpMetrics-5.1.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
+  ** Model Context Protocol 1.0
+    *** xref:javadoc/api/mcp-1.0.io.openliberty.mcp.annotations.adoc[io.openliberty.mcp.annotations]
+    *** xref:javadoc/api/mcp-1.0.io.openliberty.mcp.features.adoc[io.openliberty.mcp.features]
+    *** xref:javadoc/api/mcp-1.0.io.openliberty.mcp.tools.adoc[io.openliberty.mcp.tools]
   ** OAuth 2.0
     *** xref:javadoc/api/oauth-2.0.com.ibm.oauth.core.api.attributes.adoc[com.ibm.oauth.core.api.attributes]
     *** xref:javadoc/api/oauth-2.0.com.ibm.oauth.core.api.config.adoc[com.ibm.oauth.core.api.config]

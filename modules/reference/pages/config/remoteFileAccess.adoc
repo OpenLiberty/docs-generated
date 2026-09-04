@@ -15,7 +15,7 @@
 
 |
 
-|+A directory that clients are not allowed to read from or write to, regardless of readDir or writeDir configuration. There can be multiple blockDir elements, and each represents a single directory that may refer to variables or absolute paths. Default is ${server.output.dir}/resources/security.+
+|+A directory that clients are not allowed to read from or write to, regardless of readDir or writeDir configuration. There can be multiple blockDir elements, and each represents a single directory that may refer to variables or absolute paths. Default is ${server.output.dir}/resources/security and ${server.output.dir}/resources/collective.+
 
 |+disableBlockList+
 

@@ -68,6 +68,7 @@ include::./jsonb-3.0/examples.adoc[opts=optional]
 == Features that enable this feature
 * feature:jakartaeeClient-10.0[]
 * feature:jakartaeeClient-11.0[]
+* feature:mcp-1.0[]
 * feature:microProfile-6.0[]
 * feature:microProfile-6.1[]
 * feature:microProfile-7.0[]

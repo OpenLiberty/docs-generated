@@ -4628,6 +4628,96 @@ Required
 
 |+The value of the property.+
 |===
+[#+mcp+]*mcp*
+
++Configure the MCP feature.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+asyncTimeout+
+
+|A period of time with millisecond precision
+
+|+30s+
+
+|+The timeout duration for asynchronous MCP tool calls. If an asynchronous tool call does not complete within this time, it will be cancelled. Specify a positive integer followed by a unit of time. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+
+|+moduleName+
+
+|string
+
+|
+
+|+The name of the module in an EAR. Selects the module to which the configuration applies.+
+
+|+path+
+
+|string
+
+|+/mcp+
+
+|+The URL path for this MCP endpoint, relative to the module context root. Sets the MCP endpoint path within that module.+
+
+|+sessionTimeout+
+
+|A period of time with second precision
+
+|+600s+
+
+|+The timeout duration for MCP sessions. After this period of inactivity, the session expires and is removed from the server. Specify a positive integer followed by a unit of time. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+
+|+stateless+
+
+|boolean
+
+|+false+
+
+|+Stateless mode disables MCP session tracking by the server. This mode removes the need for session affinity in a clustered environment. Otherwise, the same server handles requests from the same MCP session. Because no session data is stored on the servers, any server instance can handle any request, which simplifies load balancing and horizontal scaling. However, the stateless mode also disables MCP features that rely on session tracking or linking separate HTTP requests together, such as canceling a tool call.+
+|===
+[#+mcp/info+]*mcp > info*
+
++Configuration for MCP server metadata that is returned to clients during initialization.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+description+
+
+|string
+
+|
+
+|+The description string for this MCP server. This value describes the purpose and capabilities of the implementation for clients or servers.+
+
+|+name+
+
+|string
+
+|+mcp-server+
+
+|+The name identifier for this MCP server. This display name is used by MCP clients to identify the server.+
+
+|+title+
+
+|string
+
+|
+
+|+A human-readable title for this MCP server, intended for UI and user contexts.+
+
+|+version+
+
+|string
+
+|+1.0.0+
+
+|+The version string for this MCP server. This value is used to track the server version.+
+|===
 [#+resourceAdapter+]*resourceAdapter*
 
 +Specifies configuration for a resource adapter that is embedded in an application.+
@@ -9514,6 +9604,96 @@ Required
 |
 
 |+The value of the property.+
+|===
+[#+startAfter/mcp+]*startAfter > mcp*
+
++Configure the MCP feature.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+asyncTimeout+
+
+|A period of time with millisecond precision
+
+|+30s+
+
+|+The timeout duration for asynchronous MCP tool calls. If an asynchronous tool call does not complete within this time, it will be cancelled. Specify a positive integer followed by a unit of time. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+
+|+moduleName+
+
+|string
+
+|
+
+|+The name of the module in an EAR. Selects the module to which the configuration applies.+
+
+|+path+
+
+|string
+
+|+/mcp+
+
+|+The URL path for this MCP endpoint, relative to the module context root. Sets the MCP endpoint path within that module.+
+
+|+sessionTimeout+
+
+|A period of time with second precision
+
+|+600s+
+
+|+The timeout duration for MCP sessions. After this period of inactivity, the session expires and is removed from the server. Specify a positive integer followed by a unit of time. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+
+|+stateless+
+
+|boolean
+
+|+false+
+
+|+Stateless mode disables MCP session tracking by the server. This mode removes the need for session affinity in a clustered environment. Otherwise, the same server handles requests from the same MCP session. Because no session data is stored on the servers, any server instance can handle any request, which simplifies load balancing and horizontal scaling. However, the stateless mode also disables MCP features that rely on session tracking or linking separate HTTP requests together, such as canceling a tool call.+
+|===
+[#+startAfter/mcp/info+]*startAfter > mcp > info*
+
++Configuration for MCP server metadata that is returned to clients during initialization.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+description+
+
+|string
+
+|
+
+|+The description string for this MCP server. This value describes the purpose and capabilities of the implementation for clients or servers.+
+
+|+name+
+
+|string
+
+|+mcp-server+
+
+|+The name identifier for this MCP server. This display name is used by MCP clients to identify the server.+
+
+|+title+
+
+|string
+
+|
+
+|+A human-readable title for this MCP server, intended for UI and user contexts.+
+
+|+version+
+
+|string
+
+|+1.0.0+
+
+|+The version string for this MCP server. This value is used to track the server version.+
 |===
 [#+startAfter/resourceAdapter+]*startAfter > resourceAdapter*
 
