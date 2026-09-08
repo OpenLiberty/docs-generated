@@ -96,6 +96,14 @@
 |+false+
 
 |+Save the message arrival time as an attribute of the message.+
+
+|+sipProxyAllowList+
+
+|string
+
+|
+
+|+A comma-separated list of permitted forwarding destinations used when the SIP container acts as a transparent proxy (routeWhenNoApp=true and no application matches the incoming request). Each entry is a host name or IP address, optionally followed by a colon and port number, for example proxy.example.com:5060 or 10.0.0.1. A host-only entry matches any port on that host. When this property is empty (the default), all transparent forwarding is blocked and the container returns the error code defined by sipNoRouteErrorCode. Configure this property to the minimum set of SIP destinations that the container is legitimately permitted to proxy to.+
 |===
 [#+sipIntrospect+]*sipIntrospect*
 
