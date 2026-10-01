@@ -85,7 +85,7 @@ include::./appSecurity-4.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
@@ -98,7 +98,16 @@ include::./appSecurity-4.0/examples.adoc[opts=optional]
 == Features that enable this feature
 * feature:appAuthentication-2.0[]
 * feature:appAuthorization-2.0[]
+* feature:audit-1.0[]
+* feature:audit-2.0[]
+* feature:constrainedDelegation-1.0[]
+* feature:jwtSso-1.0[]
 * feature:mpJwt-2.0[]
+* feature:oauth-2.0[]
+* feature:passwordUtilities-1.0[]
+* feature:passwordUtilities-1.1[]
+* feature:samlWeb-2.0[]
+* feature:spnego-1.0[]
 * feature:webProfile-9.1[]
 // end::dependencies[]
 // tag::feature-require[]

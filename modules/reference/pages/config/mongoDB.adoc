@@ -82,7 +82,7 @@ Required
 *+IGNORE+* +
 +Server will not issue any warning and error messages when it incurs a configuration error.+ +
 *+WARN+* +
-+Server will issue warning and error messages when it incurs a configuration error.+
++The server issues warning and error messages when it incurs a configuration error.+
 
 |+password+
 
@@ -478,7 +478,8 @@ Required
 
 |+keyStoreRef+
 
-|A reference to top level keyStore element (string).
+|A reference to top level keyStore element (string). +
+Required
 
 |
 

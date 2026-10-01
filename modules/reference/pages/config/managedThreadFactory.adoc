@@ -101,7 +101,7 @@ Max: +10+
 *+IGNORE+* +
 +Server will not issue any warning and error messages when it incurs a configuration error.+ +
 *+WARN+* +
-+Server will issue warning and error messages when it incurs a configuration error.+
++The server issues warning and error messages when it incurs a configuration error.+
 
 4+|*+Advanced Properties+*
 
@@ -153,7 +153,7 @@ Max: +10+
 *+IGNORE+* +
 +Server will not issue any warning and error messages when it incurs a configuration error.+ +
 *+WARN+* +
-+Server will issue warning and error messages when it incurs a configuration error.+
++The server issues warning and error messages when it incurs a configuration error.+
 
 4+|*+Advanced Properties+*
 

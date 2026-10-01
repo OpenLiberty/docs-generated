@@ -42,7 +42,7 @@ include::./jsonp-2.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
@@ -53,14 +53,17 @@ include::./jsonp-2.0/examples.adoc[opts=optional]
 // tag::dependencies[]
 
 == Features that enable this feature
+* feature:batchManagement-1.0[]
 * feature:jakartaeeClient-9.1[]
 * feature:jsonb-2.0[]
 * feature:jsonbContainer-2.0[]
+* feature:jwtSso-1.0[]
 * feature:microProfile-5.0[]
 * feature:mpHealth-4.0[]
 * feature:mpJwt-2.0[]
 * feature:mpRestClient-3.0[]
 * feature:restfulWSClient-3.0[]
+* feature:socialLogin-1.0[]
 * feature:webProfile-9.1[]
 // end::dependencies[]
 // tag::feature-require[]

@@ -32,6 +32,8 @@ include::./jsonp-2.1/examples.adoc[opts=optional]
 * javadoc:jakarta.json.stream[]
 // end::apis[]
 // tag::requirements[]
+
+== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 
@@ -41,7 +43,7 @@ include::./jsonp-2.1/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
@@ -55,10 +57,12 @@ include::./jsonp-2.1/examples.adoc[opts=optional]
 == Features that enable this feature
 * feature:appSecurity-5.0[]
 * feature:appSecurity-6.0[]
+* feature:batchManagement-1.0[]
 * feature:jakartaeeClient-10.0[]
 * feature:jakartaeeClient-11.0[]
 * feature:jsonb-3.0[]
 * feature:jsonbContainer-3.0[]
+* feature:jwtSso-1.0[]
 * feature:microProfile-6.0[]
 * feature:microProfile-6.1[]
 * feature:microProfile-7.0[]
@@ -70,6 +74,7 @@ include::./jsonp-2.1/examples.adoc[opts=optional]
 * feature:persistence-3.2[]
 * feature:restfulWSClient-3.1[]
 * feature:restfulWSClient-4.0[]
+* feature:socialLogin-1.0[]
 * feature:webProfile-10.0[]
 * feature:webProfile-11.0[]
 // end::dependencies[]

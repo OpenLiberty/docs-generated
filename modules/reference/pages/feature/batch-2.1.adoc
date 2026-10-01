@@ -56,7 +56,9 @@ include::./batch-2.1/examples.adoc[opts=optional]
 * feature:jdbc-4.3[]
 * feature:jndi-1.0[]
 * feature:persistence-3.1[]
+* feature:persistence-3.2[]
 * feature:servlet-6.0[]
+* feature:servlet-6.1[]
 // end::requirements[]
 // tag::java-versions[]
 
@@ -66,7 +68,7 @@ include::./batch-2.1/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
@@ -78,6 +80,7 @@ include::./batch-2.1/examples.adoc[opts=optional]
 // tag::dependencies[]
 
 == Features that enable this feature
+* feature:batchManagement-1.0[]
 * feature:jakartaee-10.0[]
 * feature:jakartaee-11.0[]
 // end::dependencies[]

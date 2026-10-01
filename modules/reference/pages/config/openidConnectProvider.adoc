@@ -6280,8 +6280,11 @@ Max: +10485760+
 
 |* +ActiveDirectoryDefault+
 * +ActiveDirectoryIntegrated+
+* +ActiveDirectoryInteractive+
 * +ActiveDirectoryMSI+
 * +ActiveDirectoryPassword+
+* +ActiveDirectoryServicePrincipal+
+* +ActiveDirectoryServicePrincipalCertificate+
 * +NotSpecified+
 * +SqlPassword+
 

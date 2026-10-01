@@ -15,7 +15,7 @@
 
 |+false+
 
-|+True if value needs to be decoded on lookup.+
+|+Set to true to decode the JNDI entry value when it is looked up.+
 
 |+id+
 

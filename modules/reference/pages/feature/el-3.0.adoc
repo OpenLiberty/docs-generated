@@ -30,6 +30,8 @@ include::./el-3.0/examples.adoc[opts=optional]
 * javadoc:javax.el[]
 // end::apis[]
 // tag::requirements[]
+
+== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 
@@ -40,7 +42,7 @@ include::./el-3.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 

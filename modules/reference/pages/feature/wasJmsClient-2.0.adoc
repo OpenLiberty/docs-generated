@@ -69,6 +69,8 @@ include::./wasJmsClient-2.0/examples.adoc[opts=optional]
 * xref:javadoc/api/wasJmsClient-2.0.com.ibm.ws.jca.cm.mbean.adoc[com.ibm.ws.jca.cm.mbean]
 // end::apis[]
 // tag::requirements[]
+
+== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 
@@ -79,7 +81,7 @@ include::./wasJmsClient-2.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
