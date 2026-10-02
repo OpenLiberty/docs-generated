@@ -31,7 +31,7 @@
 
 |+-1+
 
-|+Limits the acceptable size of an incoming message. If a message arrives with a size larger than this value, then an error is returned to the remote client.+
+|+Limits the acceptable size of an incoming message. If a message arrives with a size larger than this value, then an error is returned to the remote client. The default value is -1, which indicates that the size is not limited.+
 
 |+NoCacheCookiesControl+
 
@@ -109,7 +109,7 @@ Max: +1048576+
 
 |+32768+
 
-|+Specifies the size of each buffer used when reading the body of an incoming HTTP message.+
+|+Specifies the size of each buffer used when reading the body of an incoming HTTP message. The default value is 32768 bytes.+
 
 |+keepAliveEnabled+
 
@@ -127,7 +127,7 @@ Max: +2147483647+
 
 |+32768+
 
-|+Enforces the size limits on various HTTP fields, such as request URLs, or individual header names or values. Enforcing the size limits of these fields guards against possible Denial of Service attacks. An error is returned to the remote client, if a field exceeds the allowed size.+
+|+Enforces the size limits on various HTTP fields, such as request URLs, or individual header names or values. Enforcing the size limits of these fields guards against possible Denial of Service attacks. An error is returned to the remote client, if a field exceeds the allowed size. The default value is 32768 bytes.+
 
 |+limitNumHeaders+
 

@@ -38,6 +38,10 @@ include::./constrainedDelegation-1.0/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:appSecurity-2.0[]
+* feature:appSecurity-3.0[]
+* feature:appSecurity-4.0[]
+* feature:appSecurity-5.0[]
+* feature:appSecurity-6.0[]
 // end::requirements[]
 // tag::java-versions[]
 
@@ -48,7 +52,7 @@ include::./constrainedDelegation-1.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

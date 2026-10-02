@@ -67,7 +67,7 @@ include::./batch-2.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
@@ -78,6 +78,7 @@ include::./batch-2.0/examples.adoc[opts=optional]
 // tag::dependencies[]
 
 == Features that enable this feature
+* feature:batchManagement-1.0[]
 * feature:jakartaee-9.1[]
 // end::dependencies[]
 // tag::feature-require[]

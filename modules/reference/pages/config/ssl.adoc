@@ -59,7 +59,8 @@
 
 |+keyStoreRef+
 
-|A reference to top level keyStore element (string).
+|A reference to top level keyStore element (string). +
+Required
 
 |
 

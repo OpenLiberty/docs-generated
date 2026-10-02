@@ -57,6 +57,8 @@ include::./jca-1.7/examples.adoc[opts=optional]
 * xref:javadoc/api/jca-1.7.adoc[Java Connector Architecture 1.7]
 // end::apis[]
 // tag::requirements[]
+
+== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 
@@ -67,7 +69,7 @@ include::./jca-1.7/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
@@ -83,6 +85,7 @@ include::./jca-1.7/examples.adoc[opts=optional]
 * feature:jakartaee-8.0[]
 * feature:javaee-7.0[]
 * feature:javaee-8.0[]
+* feature:jcaInboundSecurity-1.0[]
 * feature:jms-2.0[]
 * feature:mdb-3.2[]
 // end::dependencies[]

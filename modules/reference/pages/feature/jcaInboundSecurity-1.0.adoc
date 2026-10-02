@@ -66,6 +66,7 @@ include::./jcaInboundSecurity-1.0/examples.adoc[opts=optional]
 // tag::requirements[]
 
 == Features that this feature enables
+* feature:jca-1.7[]
 * feature:ssl-1.0[]
 // end::requirements[]
 // tag::java-versions[]
@@ -77,7 +78,7 @@ include::./jcaInboundSecurity-1.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 

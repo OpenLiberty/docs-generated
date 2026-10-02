@@ -109,6 +109,7 @@ include::./mdb-4.0/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:connectors-2.0[]
+* feature:connectors-2.1[]
 * feature:jndi-1.0[]
 // end::requirements[]
 // tag::java-versions[]
@@ -120,7 +121,7 @@ include::./mdb-4.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 

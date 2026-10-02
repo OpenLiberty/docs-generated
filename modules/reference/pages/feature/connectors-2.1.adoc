@@ -57,6 +57,8 @@ include::./connectors-2.1/examples.adoc[opts=optional]
 * xref:javadoc/api/connectors-2.1.adoc[Jakarta Connectors 2.1]
 // end::apis[]
 // tag::requirements[]
+
+== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 
@@ -66,7 +68,7 @@ include::./connectors-2.1/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
@@ -80,6 +82,7 @@ include::./connectors-2.1/examples.adoc[opts=optional]
 == Features that enable this feature
 * feature:jakartaee-10.0[]
 * feature:jakartaee-11.0[]
+* feature:mdb-4.0[]
 * feature:messaging-3.1[]
 // end::dependencies[]
 // tag::feature-require[]

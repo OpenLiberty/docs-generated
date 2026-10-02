@@ -74,7 +74,7 @@ include::./appSecurity-2.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
@@ -97,6 +97,7 @@ include::./appSecurity-2.0/examples.adoc[opts=optional]
 * feature:mpJwt-1.1[]
 * feature:oauth-2.0[]
 * feature:openid-2.0[]
+* feature:passwordUtilities-1.0[]
 * feature:passwordUtilities-1.1[]
 * feature:samlWeb-2.0[]
 * feature:spnego-1.0[]

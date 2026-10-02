@@ -78,6 +78,8 @@ include::./servlet-3.1/examples.adoc[opts=optional]
 * xref:javadoc/api/servlet-3.1.com.ibm.wsspi.servlet.session.adoc[com.ibm.wsspi.servlet.session]
 // end::apis[]
 // tag::requirements[]
+
+== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 
@@ -88,7 +90,7 @@ include::./servlet-3.1/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
@@ -100,13 +102,19 @@ include::./servlet-3.1/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:acmeCA-2.0[]
+* feature:adminCenter-1.0[]
+* feature:appSecurity-1.0[]
+* feature:audit-1.0[]
+* feature:audit-2.0[]
 * feature:batch-1.0[]
 * feature:batchManagement-1.0[]
+* feature:jaspic-1.1[]
 * feature:javaee-7.0[]
 * feature:jaxrs-2.0[]
 * feature:jaxrsClient-2.0[]
 * feature:jsf-2.2[]
 * feature:jsfContainer-2.2[]
+* feature:jsp-2.2[]
 * feature:jsp-2.3[]
 * feature:jwtSso-1.0[]
 * feature:microProfile-1.2[]
@@ -125,11 +133,24 @@ include::./servlet-3.1/examples.adoc[opts=optional]
 * feature:mpMetrics-2.3[]
 * feature:mpOpenAPI-1.0[]
 * feature:mpOpenAPI-1.1[]
+* feature:oauth-2.0[]
 * feature:openapi-3.1[]
+* feature:openid-2.0[]
+* feature:openidConnectClient-1.0[]
+* feature:openidConnectServer-1.0[]
+* feature:passwordUtilities-1.0[]
+* feature:passwordUtilities-1.1[]
+* feature:restConnector-2.0[]
+* feature:samlWeb-2.0[]
 * feature:sipServlet-1.1[]
+* feature:socialLogin-1.0[]
+* feature:spnego-1.0[]
+* feature:webCache-1.0[]
 * feature:webProfile-7.0[]
 * feature:websocket-1.0[]
 * feature:websocket-1.1[]
+* feature:wsAtomicTransaction-1.2[]
+* feature:wsSecuritySaml-1.1[]
 // end::dependencies[]
 // tag::feature-require[]
 

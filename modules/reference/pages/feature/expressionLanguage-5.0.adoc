@@ -39,7 +39,7 @@ include::./expressionLanguage-5.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
@@ -51,6 +51,7 @@ include::./expressionLanguage-5.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:appSecurity-5.0[]
+* feature:beanValidation-3.0[]
 * feature:faces-4.0[]
 * feature:facesContainer-4.0[]
 * feature:pages-3.1[]

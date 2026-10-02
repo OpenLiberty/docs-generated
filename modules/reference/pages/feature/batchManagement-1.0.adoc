@@ -70,12 +70,16 @@ include::./batchManagement-1.0/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:batch-1.0[]
+* feature:batch-2.0[]
+* feature:batch-2.1[]
 * feature:distributedMap-1.0[]
 * feature:jdbc-4.0[]
 * feature:jdbc-4.1[]
 * feature:jdbc-4.2[]
 * feature:jdbc-4.3[]
 * feature:json-1.0[]
+* feature:jsonp-2.0[]
+* feature:jsonp-2.1[]
 * feature:servlet-3.1[]
 * feature:servlet-4.0[]
 * feature:servlet-5.0[]
@@ -92,7 +96,7 @@ include::./batchManagement-1.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

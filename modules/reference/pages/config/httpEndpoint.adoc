@@ -100,7 +100,7 @@ Max: +65535+
 *+IGNORE+* +
 +Server will not issue any warning and error messages when it incurs a configuration error.+ +
 *+WARN+* +
-+Server will issue warning and error messages when it incurs a configuration error.+
++The server issues warning and error messages when it incurs a configuration error.+
 
 |+protocolVersion+
 
@@ -307,7 +307,7 @@ This is specified as a child element rather than as an XML attribute (maximum oc
 
 |+-1+
 
-|+Limits the acceptable size of an incoming message. If a message arrives with a size larger than this value, then an error is returned to the remote client.+
+|+Limits the acceptable size of an incoming message. If a message arrives with a size larger than this value, then an error is returned to the remote client. The default value is -1, which indicates that the size is not limited.+
 
 |+NoCacheCookiesControl+
 
@@ -377,7 +377,7 @@ Max: +1048576+
 
 |+32768+
 
-|+Specifies the size of each buffer used when reading the body of an incoming HTTP message.+
+|+Specifies the size of each buffer used when reading the body of an incoming HTTP message. The default value is 32768 bytes.+
 
 |+keepAliveEnabled+
 
@@ -395,7 +395,7 @@ Max: +2147483647+
 
 |+32768+
 
-|+Enforces the size limits on various HTTP fields, such as request URLs, or individual header names or values. Enforcing the size limits of these fields guards against possible Denial of Service attacks. An error is returned to the remote client, if a field exceeds the allowed size.+
+|+Enforces the size limits on various HTTP fields, such as request URLs, or individual header names or values. Enforcing the size limits of these fields guards against possible Denial of Service attacks. An error is returned to the remote client, if a field exceeds the allowed size. The default value is 32768 bytes.+
 
 |+limitNumHeaders+
 
@@ -636,7 +636,7 @@ Min: +-1+
 
 |+1d+
 
-|+Amount of time to wait for a read or write request to complete on a socket. This value is overridden by protocol-specific timeouts. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+|+Amount of time to wait for a read or write request to complete on a socket. This value is overridden by protocol-specific timeouts. The default timeout value is 1 day. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
 |+sslRef+
 

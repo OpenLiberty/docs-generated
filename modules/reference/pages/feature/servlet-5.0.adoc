@@ -88,7 +88,7 @@ include::./servlet-5.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 
@@ -100,8 +100,11 @@ include::./servlet-5.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:acmeCA-2.0[]
+* feature:adminCenter-1.0[]
 * feature:appAuthentication-2.0[]
 * feature:appSecurity-4.0[]
+* feature:audit-1.0[]
+* feature:audit-2.0[]
 * feature:batch-2.0[]
 * feature:batchManagement-1.0[]
 * feature:facesContainer-3.0[]
@@ -114,10 +117,22 @@ include::./servlet-5.0/examples.adoc[opts=optional]
 * feature:mpJwt-2.0[]
 * feature:mpMetrics-4.0[]
 * feature:mpOpenAPI-3.0[]
+* feature:oauth-2.0[]
+* feature:openidConnectClient-1.0[]
+* feature:openidConnectServer-1.0[]
 * feature:pages-3.0[]
+* feature:passwordUtilities-1.0[]
+* feature:passwordUtilities-1.1[]
+* feature:restConnector-2.0[]
 * feature:restfulWSClient-3.0[]
+* feature:samlWeb-2.0[]
+* feature:socialLogin-1.0[]
+* feature:spnego-1.0[]
+* feature:webCache-1.0[]
 * feature:webProfile-9.1[]
 * feature:websocket-2.0[]
+* feature:wsAtomicTransaction-1.2[]
+* feature:wsSecuritySaml-1.1[]
 * feature:xmlWS-3.0[]
 // end::dependencies[]
 // tag::feature-require[]
