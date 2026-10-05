@@ -38,6 +38,14 @@ include::./openidConnectServer-1.0/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:oauth-2.0[]
+* feature:pages-3.0[]
+* feature:pages-3.1[]
+* feature:pages-4.0[]
+* feature:servlet-3.1[]
+* feature:servlet-4.0[]
+* feature:servlet-5.0[]
+* feature:servlet-6.0[]
+* feature:servlet-6.1[]
 // end::requirements[]
 // tag::java-versions[]
 
@@ -48,7 +56,7 @@ include::./openidConnectServer-1.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

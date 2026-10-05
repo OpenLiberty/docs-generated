@@ -43,6 +43,8 @@ include::./messagingServer-3.0/examples.adoc[opts=optional]
 * xref:javadoc/api/messagingServer-3.0.com.ibm.websphere.messaging.mbean.adoc[com.ibm.websphere.messaging.mbean]
 // end::apis[]
 // tag::requirements[]
+
+== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 
@@ -53,7 +55,7 @@ include::./messagingServer-3.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::platform-versions[]
 

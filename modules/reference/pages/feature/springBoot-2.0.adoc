@@ -39,6 +39,8 @@ include::./springBoot-2.0/examples.adoc[opts=optional]
 // tag::apis[]
 // end::apis[]
 // tag::requirements[]
+
+== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 
@@ -49,7 +51,7 @@ include::./springBoot-2.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 * JavaSE-21.0
 * JavaSE-25.0
-* JavaSE-26.0
+* JavaSE-27.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

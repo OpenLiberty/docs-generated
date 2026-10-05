@@ -60,7 +60,7 @@ Min: +1+
 |===
 [#+jdbcTiming+]*jdbcTiming*
 
-+Overrides defaults that are specified in the root attributes of requestTiming for JDBC requests.+
++Overrides defaults that are specified in the root attributes of requestTiming for JDBC operations.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -89,7 +89,7 @@ Min: +1+
 
 |
 
-|+Duration of time that a JDBC request can run before being considered hung. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+|+Duration of time that a JDBC operation can run before being considered hung. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
 
 |+interruptHungRequests+
 
@@ -97,7 +97,7 @@ Min: +1+
 
 |+false+
 
-|+Indicates whether a JDBC request that is hung is to be interrupted. A value of true causes the requestTiming-1.0 feature to attempt to interrupt the hung request. A value of false allows the request to continue to run.+
+|+Indicates whether a JDBC operation that is hung is to be interrupted. A value of true causes the requestTiming-1.0 feature to attempt to interrupt the hung request. A value of false allows the request to continue to run.+
 
 |+query+
 
@@ -113,7 +113,7 @@ Min: +1+
 
 |
 
-|+Duration of time that a JDBC request can run before being considered slow. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+|+Duration of time that a JDBC operation can run before being considered slow. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
 |===
 [#+servletTiming+]*servletTiming*
 
