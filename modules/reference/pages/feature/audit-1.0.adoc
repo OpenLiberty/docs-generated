@@ -28,6 +28,7 @@ include::./audit-1.0/examples.adoc[opts=optional]
 
 == Feature configuration elements
 * config:administrator-role[]
+* config:audit[]
 * config:auditEvent[]
 * config:auditFileHandler[]
 * config:authCache[]

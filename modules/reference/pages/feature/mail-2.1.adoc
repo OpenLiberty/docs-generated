@@ -46,8 +46,6 @@ include::./mail-2.1/examples.adoc[opts=optional]
 * javadoc:jakarta.mail.util[]
 // end::apis[]
 // tag::requirements[]
-
-== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 
