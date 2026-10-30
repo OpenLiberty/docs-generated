@@ -64,7 +64,7 @@
 
 |+defaultCompression+
 
-|+Compression options for the endpoint.+
+|+Compression options for the endpoint. User customizations are ignored when they reference configuration elements with default configuration ID 'defaultCompression', for example compressionRef="defaultCompression". To customize compression options, create a compression element with a nondefault ID and reference it instead.+
 
 |+enabled+
 
@@ -80,7 +80,7 @@
 
 |+defaultHeaders+
 
-|+Header options for the endpoint.+
+|+Header options for the endpoint. User customizations are ignored when they reference configuration elements with default configuration ID 'defaultHeaders', for example headersRef="defaultHeaders". To customize header options, create a headers element with a nondefault ID and reference it instead.+
 
 |+host+
 
@@ -157,7 +157,7 @@ Max: +65535+
 
 |+defaultRemoteIp+
 
-|+Remote IP options for the endpoint.+
+|+Remote IP options for the endpoint. User customizations are ignored when they reference configuration elements with default configuration ID 'defaultRemoteIp', for example remoteIpRef="defaultRemoteIp". To customize remote IP options, create a remoteIp element with a nondefault ID and reference it instead.+
 
 |+samesiteRef+
 
@@ -165,7 +165,7 @@ Max: +65535+
 
 |+defaultSameSite+
 
-|+SameSite options for the endpoint.+
+|+SameSite options for the endpoint. User customizations are ignored when they reference configuration elements with default configuration ID 'defaultSameSite', for example samesiteRef="defaultSameSite". To customize SameSite options, create a samesite element with a nondefault ID and reference it instead.+
 
 |+sslOptionsRef+
 
@@ -252,7 +252,7 @@ Min: +0+
 |===
 [#+allowFromEndpoint/compression+]*allowFromEndpoint > compression*
 
-+Compression options for the endpoint.+
++Compression options for the endpoint. User customizations are ignored when they reference configuration elements with default configuration ID 'defaultCompression', for example compressionRef="defaultCompression". To customize compression options, create a compression element with a nondefault ID and reference it instead.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -278,7 +278,7 @@ This is specified as a child element rather than as an XML attribute (maximum oc
 |===
 [#+allowFromEndpoint/headers+]*allowFromEndpoint > headers*
 
-+Header options for the endpoint.+
++Header options for the endpoint. User customizations are ignored when they reference configuration elements with default configuration ID 'defaultHeaders', for example headersRef="defaultHeaders". To customize header options, create a headers element with a nondefault ID and reference it instead.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -598,7 +598,7 @@ Min: +-1+
 |===
 [#+allowFromEndpoint/remoteIp+]*allowFromEndpoint > remoteIp*
 
-+Remote IP options for the endpoint.+
++Remote IP options for the endpoint. User customizations are ignored when they reference configuration elements with default configuration ID 'defaultRemoteIp', for example remoteIpRef="defaultRemoteIp". To customize remote IP options, create a remoteIp element with a nondefault ID and reference it instead.+
 
 
 [cols="a,a,a,a",width="100%"]
@@ -623,7 +623,7 @@ Min: +-1+
 |===
 [#+allowFromEndpoint/samesite+]*allowFromEndpoint > samesite*
 
-+SameSite options for the endpoint.+
++SameSite options for the endpoint. User customizations are ignored when they reference configuration elements with default configuration ID 'defaultSameSite', for example samesiteRef="defaultSameSite". To customize SameSite options, create a samesite element with a nondefault ID and reference it instead.+
 
 
 [cols="a,a,a,a",width="100%"]
