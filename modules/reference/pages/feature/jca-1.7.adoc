@@ -57,8 +57,6 @@ include::./jca-1.7/examples.adoc[opts=optional]
 * xref:javadoc/api/jca-1.7.adoc[Java Connector Architecture 1.7]
 // end::apis[]
 // tag::requirements[]
-
-== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 

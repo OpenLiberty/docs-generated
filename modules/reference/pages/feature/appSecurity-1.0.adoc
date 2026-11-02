@@ -27,8 +27,8 @@ include::./appSecurity-1.0/examples.adoc[opts=optional]
 // tag::superceeded[]
 
 == Features that this feature is superseded by
-* feature:ldapRegistry-3.0[]
 * feature:appSecurity-2.0[]
+* feature:ldapRegistry-3.0[]
 // end::superceeded[]
 // tag::apis[]
 // end::apis[]

@@ -43,8 +43,6 @@ include::./jdbc-4.2/examples.adoc[opts=optional]
 * xref:javadoc/api/jdbc-4.2.adoc[Java Database Connectivity 4.2]
 // end::apis[]
 // tag::requirements[]
-
-== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 

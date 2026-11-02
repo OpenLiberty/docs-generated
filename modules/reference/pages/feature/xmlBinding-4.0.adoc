@@ -43,8 +43,6 @@ include::./xmlBinding-4.0/examples.adoc[opts=optional]
 * javadoc:jakarta.xml.bind.util[]
 // end::apis[]
 // tag::requirements[]
-
-== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 

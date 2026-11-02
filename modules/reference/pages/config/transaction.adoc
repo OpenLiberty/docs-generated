@@ -189,7 +189,7 @@ Max: +100+
 
 |+0+
 
-|+Upper limit of the transaction timeout for transactions that run in this server. This value should be greater than or equal to the value specified for the total transaction timeout. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+|+Specifies the upper limit of the transaction timeout for transactions that run in this server. When this value is greater than zero, it overrides any requested timeout that exceeds it, and also overrides a requested timeout of zero (no timeout). This value must be greater than or equal to totalTranLifetimeTimeout; if it is lower, all transactions will be capped to this value regardless of the requested timeout. A value of 0 (the default) disables this upper limit. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
 |+recoverOnStartup+
 
@@ -231,21 +231,13 @@ Max: +100+
 
 |+Specifies whether methods annotated with @Transactional can throw undeclared checked exceptions.+
 
-|+timeoutGracePeriodEnabled+
-
-|boolean
-
-|+false+
-
-|+Specifies whether there is a delay between a transaction timeout and the abnormal ending of the servant region that was running the transaction.+
-
 |+totalTranLifetimeTimeout+
 
 |A period of time with second precision
 
 |+120s+
 
-|+Default maximum time allowed for transactions started on this server to complete. Any such transactions that do not complete before this timeout occurs are rolled back. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+|+Default maximum time allowed for transactions started on this server to complete. Any such transactions that do not complete before this timeout occurs are rolled back. Setting the value to zero disables the timeout. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
 |+transactionLogDBName+
 

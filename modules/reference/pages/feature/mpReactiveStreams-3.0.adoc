@@ -40,8 +40,6 @@ include::./mpReactiveStreams-3.0/examples.adoc[opts=optional]
 * javadoc:org.reactivestreams[]
 // end::apis[]
 // tag::requirements[]
-
-== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 

@@ -32,8 +32,6 @@ include::./jsonp-2.1/examples.adoc[opts=optional]
 * javadoc:jakarta.json.stream[]
 // end::apis[]
 // tag::requirements[]
-
-== Features that this feature enables
 // end::requirements[]
 // tag::java-versions[]
 

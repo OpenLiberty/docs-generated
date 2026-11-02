@@ -9,6 +9,7 @@
   ** xref:config/application.adoc[application]
   ** xref:config/applicationManager.adoc[applicationManager]
   ** xref:config/applicationMonitor.adoc[applicationMonitor]
+  ** xref:config/audit.adoc[audit]
   ** xref:config/auditEvent.adoc[auditEvent]
   ** xref:config/auditFileHandler.adoc[auditFileHandler]
   ** xref:config/authCache.adoc[authCache]

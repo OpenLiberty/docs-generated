@@ -70,7 +70,7 @@
 *+disabled+* +
 +This disables all update monitoring on all LTPA key files including primary key and validation keys (configured and non-configured). Changes to the LTPA key files are not applied while the server is running.+ +
 *+mbean+* +
-+%ltpa.updateTrigger.external+ +
++All the LTPA keys are reloaded when triggered by an MBean call. This call is typically made by an external program, such as an integrated development environment or a management application.+ +
 *+polled+* +
 +The server scans for LTPA key file changes at the monitor interval and updates if the LTPA key files have any detectable changes.+
 |===
